@@ -1,8 +1,8 @@
 # Career OS — STATUS
-Last updated: 2026-06-28 | Day 2 completed
+Last updated: 2026-06-29 | Day 3 completed
 Current phase: Ignition (Days 1–30)
 Active domain: Python — Level 1 Fundamentals
-Next lesson: Day 3 — Strings
+Next lesson: Day 4 — Control Flow
 
 ---
 
@@ -35,13 +35,13 @@ Communication practice:
 
 | Field | Value |
 |-------|-------|
-| Current Day | 3 (not yet started) |
+| Current Day | 4 (not yet started) |
 | Current Phase | Ignition |
 | Active Domain | Python |
-| Current Topic | Strings (methods, slicing, f-strings, immutability) |
-| Last Lesson | Day 2 — Operators & Expressions |
-| Last Grade | NEEDS WORK |
-| Last Submission File | submissions/day-02.py |
+| Current Topic | Control Flow (if / elif / else) |
+| Last Lesson | Day 3 — Strings |
+| Last Grade | PASS |
+| Last Submission File | submissions/day-03.py |
 
 ---
 
@@ -49,7 +49,7 @@ Communication practice:
 
 | Domain | Phase | Status | Last Topic | Days Spent | Notes |
 |--------|-------|--------|-----------|-----------|-------|
-| Python | Ignition | In Progress | Operators & Expressions | 2 | Day 3 = Strings |
+| Python | Ignition | In Progress | Strings | 3 | Day 4 = Control Flow |
 | Backend Engineering | Ignition | Not Started | — | 0 | Starts ~Day 31 |
 | SQL | Core Depth | Not Started | — | 0 | Starts ~Day 45 |
 | DBMS (Theory) | Parallel | Not Started | — | 0 | Starts Day 10, 20 min/day |
@@ -57,7 +57,7 @@ Communication practice:
 | CN (Theory) | Parallel | Not Started | — | 0 | Starts Day 14, 20 min/day |
 | Frontend | Build Phase | Not Started | — | 0 | Starts ~Day 76 |
 | Cloud/Deployment | Build Phase | Not Started | — | 0 | Starts ~Day 100 |
-| Communication | Parallel | In Progress | Self-intro draft | 2 | 15 min/day built into every lesson |
+| Communication | Parallel | In Progress | Professional email intro | 3 | 15 min/day built into every lesson |
 | Job Preparation | Offer Mode | Not Started | — | 0 | Starts ~Day 121 |
 
 ---
@@ -72,7 +72,7 @@ Python has 5 levels. Track each topic's completion status here.
 |-------|-----|-------|-------|
 | Variables & Data Types | 1 | PASS | f-string output, type(), input(), ValueError stretch |
 | Operators & Expressions | 2 | NEEDS WORK | f-string labels inconsistent, short-circuit not proved directly, bool() not used in stretch |
-| Strings | 3 | — | Pending |
+| Strings | 3 | PASS | All methods correct, slicing precise, stretch completed; minor label typos (stripped/World vs Stripped/Words) |
 | Control Flow | 4 | — | Pending |
 | Loops | 5 | — | Pending |
 | Functions | 6 | — | Pending |
@@ -95,6 +95,7 @@ Not started. Covers: Decorators, Context Managers, Standard Library, Type Hints
 |-----|------|-------|-------|------|-------------|
 | 1 | submissions/day-01.py | Variables & Data Types | PASS | 2026-06-27 | Clean f-string output, type() correct, input() + int() conversion good |
 | 2 | submissions/day-02.py | Operators & Expressions | NEEDS WORK | 2026-06-28 | f-string labels said "x-y" for all ops; short-circuit via if/else not direct proof; stretch used if/else not bool() |
+| 3 | submissions/day-03.py | Strings | PASS | 2026-06-29 | All 7 requirements met, stretch completed; minor label typos; doesn't know name "short-circuit evaluation" yet |
 
 ---
 
@@ -102,7 +103,7 @@ Not started. Covers: Decorators, Context Managers, Standard Library, Type Hints
 
 | Week | Days Active | Lessons Done | PASS | NEEDS WORK | REDO | Domains Touched |
 |------|------------|-------------|------|-----------|------|----------------|
-| 1 (Jun 22–28) | 2 | 2 | 1 | 1 | 0 | Python |
+| 1 (Jun 22–28) | 3 | 3 | 2 | 1 | 0 | Python |
 
 ---
 
@@ -131,8 +132,10 @@ Problems/topics that need to be redone before advancing.
 
 ## NOTES FOR NEXT LESSON GENERATOR
 
-- Day 2 was NEEDS WORK but concept understanding was confirmed solid (revision check answers all correct)
-- Day 3 topic: Strings — methods, slicing, f-strings, immutability
-- Resource: Corey Schafer YouTube — Python Beginner Series, Strings video (free, 30 min)
-- Communication: continue building on self-intro draft from Day 1. Day 3 task: rewrite it as a "professional email intro" format
+- Day 3 was PASS — advance to Day 4 normally
+- Day 4 topic: Control Flow (if / elif / else, nested conditions, comparison operators in context)
+- Resource: Python Programming with Mosh — Udemy Business — Section 3 — Control Flow
+- Communication: Day 4 task — answer one STAR behavioral question out loud or in writing ("Tell me about a time you solved a problem under pressure" — links to telecom background)
+- Carry-forward watch: f-string label precision (typo "World list" vs "Words list" — two days of label typos now). Include a requirement that explicitly names the expected label in Day 4.
+- Carry-forward watch: student does not know the term "short-circuit evaluation" — can reinforce naturally when covering boolean conditions in Control Flow
 - No theory block yet (starts Day 10)

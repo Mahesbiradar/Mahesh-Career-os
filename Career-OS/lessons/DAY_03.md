@@ -116,10 +116,12 @@ Paste the email with your code submission.
 
 ## REVISION CHECK (2 min — answer without looking)
 
-1. What does `"hello"[1:4]` return?
-2. You run `name = "mahesh"` then `name.upper()`. What is the value of `name` after this line?
+Topic from yesterday: **Day 2 — Operators & Expressions**
 
-Answer these in your head. If you are not sure about #2 — that is exactly what today's concept covers. Watch the video first.
+1. What is the difference between `//` and `/` in Python? What does `7 // 2` return?
+2. You write `print(False and risky_function())`. Does `risky_function()` get called? What is this behaviour called, and why does it happen?
+
+Answer in your head. If you cannot answer: re-read Day 2's concept summary before starting today's video.
 
 ---
 
