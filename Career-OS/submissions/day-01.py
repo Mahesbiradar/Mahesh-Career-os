@@ -52,11 +52,11 @@ print(type(currently_employed))
 
 #Task three 
 
-full_name = input("Enter your full name: ")
+# full_name = input("Enter your full name: ")
 
-age = int(input("Enter Your age: "))
+# age = int(input("Enter Your age: "))
 
-print(f"Hello {full_name}, You will be {age+1} next year")
+# print(f"Hello {full_name}, You will be {age+1} next year")
 
 
 #Task 4 
@@ -94,5 +94,14 @@ Im targeting Backend and Full stack roles to apply my both system and new devlop
 #My review about the system Here i followed wnat i supposed to do but for the python topics the resources you suggest on udemy is not available then i visited you tube and saw video.
 
 #communication is ok but not seems Intresting.
+
+
+x=10
+
+# x+=2
+
+x-=2
+
+print(x)
 
 
