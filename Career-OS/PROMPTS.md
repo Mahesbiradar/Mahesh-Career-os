@@ -128,7 +128,7 @@ LESSON RULES FOR AGENT:
 2. If last grade was NEEDS WORK → advance to next topic BUT include a 2-line "Fix from yesterday" block before the video section.
 3. If last grade was PASS → advance normally.
 4. Theory block: include only if Current Day >= 10.
-5. Resource must come from RESOURCE_MAP.md — never guess or make up a course name.
+5. RESOURCE RULE (critical): Open 20_RESOURCE_MAP.md. Find the row for today's syllabus section. Copy the exact Video Title and YouTube Link from that row into the lesson file. Do NOT guess, invent, or search for resources. If the row says "—" (no link), write "No dedicated video — concept covered in: [reference the relevant mapped video]". Never write a resource that is not in 20_RESOURCE_MAP.md.
 6. Assignment must be specific enough that the agent can evaluate it from code alone (no "explain in your own words" unless it's a theory day).
 7. Save the file. Confirm the filename in chat.
 ```
@@ -275,6 +275,24 @@ Output in chat + update STATUS.md:
 
 Output format: clean sections, under 40 lines total in chat.
 ```
+
+---
+
+## COMMUNICATION PROGRESSION (agent reference — do not show to user)
+
+Each lesson file includes a 15-min communication task. Follow this arc — do NOT repeat the same task type two days in a row:
+
+| Days | Task Type | Example |
+|---|---|---|
+| 1–10 | Written self-introduction + STAR answer using telecom background | "Tell me about yourself" / "Solve a problem under pressure" |
+| 11–20 | Explain today's Python concept in plain English (as if to interviewer) | "Explain what a decorator does without using jargon" |
+| 21–30 | Walk through your assignment code — describe what it does and why you wrote it that way | "Describe your grade classifier program in 5 sentences" |
+| 31–60 | HR + role-specific questions + professional email writing | "Why are you switching from telecom to software?" |
+| 61–90 | Technical interview Q&A — write a full answer to one standard interview question | "What is the difference between a list and a tuple?" |
+| 91–120 | System design explanation | "Describe how you would design a URL shortener" |
+| 121–180 | Full mock interview Q&A (3 questions per day, timed response) | Mixed technical + behavioural |
+
+Every 7 days: add a "Record yourself" prompt — user records a 2-minute spoken answer, watches it back, notes one improvement. No tool needed — just a phone camera.
 
 ---
 
