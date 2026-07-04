@@ -1,8 +1,8 @@
 # Career OS — STATUS
-Last updated: 2026-06-30 | Day 4 completed
+Last updated: 2026-07-04 | Day 5 REDO — repeat Loops before advancing
 Current phase: Ignition (Days 1–30)
 Active domain: Python — Level 1 Fundamentals
-Next lesson: Day 4 — Control Flow
+Next lesson: Day 6 (repeat) — Loops
 
 ---
 
@@ -35,13 +35,13 @@ Communication practice:
 
 | Field | Value |
 |-------|-------|
-| Current Day | 5 (not yet started) |
+| Current Day | 6 (repeat of Loops — Day 5 REDO) |
 | Current Phase | Ignition |
 | Active Domain | Python |
-| Current Topic | Loops (for / while) |
-| Last Lesson | Day 4 — Control Flow |
-| Last Grade | NEEDS WORK |
-| Last Submission File | submissions/day-04.py |
+| Current Topic | Loops (for / while) — repeat |
+| Last Lesson | Day 5 — Loops |
+| Last Grade | REDO |
+| Last Submission File | submissions/day-05.py |
 
 ---
 
@@ -49,7 +49,7 @@ Communication practice:
 
 | Domain | Phase | Status | Last Topic | Days Spent | Notes |
 |--------|-------|--------|-----------|-----------|-------|
-| Python | Ignition | In Progress | Control Flow | 4 | Day 5 = Loops |
+| Python | Ignition | In Progress | Loops | 5 | Day 5 REDO — Day 6 repeats Loops |
 | Backend Engineering | Ignition | Not Started | — | 0 | Starts ~Day 31 |
 | SQL | Core Depth | Not Started | — | 0 | Starts ~Day 45 |
 | DBMS (Theory) | Parallel | Not Started | — | 0 | Starts Day 10, 20 min/day |
@@ -74,7 +74,7 @@ Python has 5 levels. Track each topic's completion status here.
 | Operators & Expressions | 2 | NEEDS WORK | f-string labels inconsistent, short-circuit not proved directly, bool() not used in stretch |
 | Strings | 3 | PASS | All methods correct, slicing precise, stretch completed; minor label typos (stripped/World vs Stripped/Words) |
 | Control Flow | 4 | NEEDS WORK | Falsy check: used double-negation instead of `if name:`, label had extra space |
-| Loops | 5 | — | Pending |
+| Loops | 5 | REDO | `continue` not used at all (if-condition used instead); break print had literal `<>` around item instead of exact value; non-empty list case never created/demonstrated |
 | Functions | 6 | — | Pending |
 | Lists | 7 | — | Pending |
 | Tuples + Sets | 8 | — | Pending |
@@ -97,6 +97,7 @@ Not started. Covers: Decorators, Context Managers, Standard Library, Type Hints
 | 2 | submissions/day-02.py | Operators & Expressions | NEEDS WORK | 2026-06-28 | f-string labels said "x-y" for all ops; short-circuit via if/else not direct proof; stretch used if/else not bool() |
 | 3 | submissions/day-03.py | Strings | PASS | 2026-06-29 | All 7 requirements met, stretch completed; minor label typos; doesn't know name "short-circuit evaluation" yet |
 | 4 | submissions/day-04.py | Control Flow | NEEDS WORK | 2026-06-30 | Falsy check used double-negation (`if not name != ""`) instead of `if name:`; label had extra space `"Name : "` |
+| 5 | submissions/day-05.py | Loops | REDO | 2026-07-04 | `continue` requirement skipped entirely (used `if num % 2 != 0:` instead); `Found: <item>` printed literal angle brackets; only empty-list case demonstrated, non-empty list never created |
 
 ---
 
@@ -105,7 +106,7 @@ Not started. Covers: Decorators, Context Managers, Standard Library, Type Hints
 | Week | Days Active | Lessons Done | PASS | NEEDS WORK | REDO | Domains Touched |
 |------|------------|-------------|------|-----------|------|----------------|
 | 1 (Jun 22–28) | 3 | 3 | 2 | 1 | 0 | Python |
-| 2 (Jun 29–30) | 1 | 1 | 0 | 1 | 0 | Python |
+| 2 (Jun 29–Jul 5) | 2 | 2 | 0 | 1 | 1 | Python |
 
 ---
 
@@ -128,15 +129,15 @@ Problems/topics that need to be redone before advancing.
 
 | Day | Topic | Reason | Status |
 |-----|-------|--------|--------|
-| — | — | — | — |
+| 5 | Loops | `continue` never used (if-condition substituted); break print had literal `<>` around item; non-empty list case never created/tested | Pending — repeat in Day 6 |
 
 ---
 
 ## NOTES FOR NEXT LESSON GENERATOR
 
-- Day 4 was NEEDS WORK — advance to Day 5 normally
-- Day 5 topic: Loops (for / while, range(), break, continue)
-- Carry-forward watch: falsy check pattern — student used `if not name != ""` (double-negation) instead of `if name:`. Day 5 should include a requirement that explicitly uses `if name:` or `if items:` style so they get another rep.
-- Carry-forward watch: label precision — `"Name : "` had extra space. Three days of minor label issues now. Consider making Day 5 require exact label matching more explicitly.
-- Communication: Day 5 STAR — second attempt. Enforce STAR labels and "I" not "we". Flag the spelling (cutomer, immedetly, thougt) — may want to note to proofread answers.
+- Day 5 was REDO — Day 6 must repeat the Loops topic, not advance to Functions. Re-teach `continue` and the empty/non-empty list truthiness check specifically.
+- Carry-forward watch: `continue` was not used at all — student solved "skip evens" with `if num % 2 != 0: print(...)` instead of `if num % 2 == 0: continue` + unconditional print. Day 6 must force a scenario where `continue` is the only viable approach (e.g., skip logic placed before other required work in the loop body) so an if-only workaround doesn't satisfy it.
+- Carry-forward watch: exact-output discipline — printed `Found: <6>` (literal angle brackets) instead of `Found: 6`. This is the same "extra characters in output" pattern as prior label issues (Days 2–4). Day 6 should keep hammering exact-string-match requirements.
+- Carry-forward watch: student only created ONE list (empty) and skipped the non-empty case entirely, despite the requirement explicitly asking for both. Day 6 should require both branches to literally both execute and print, not just one.
+- Communication: Day 5 STAR (2nd attempt) — still no STAR labels used (plain numbered paragraphs instead), still used "we" instead of "I" in the Situation line, spelling errors persist (intrviewed, alinged, im). Day 6 needs a third STAR attempt with explicit labels enforced.
 - No theory block yet (starts Day 10)
