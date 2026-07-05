@@ -1,5 +1,5 @@
 # Career OS — STATUS
-Last updated: 2026-07-04 | Day 6 PASS (resubmit) — advancing to Day 7
+Last updated: 2026-07-05 | Week 2 review complete — advancing to Day 7
 Current phase: Ignition (Days 1–30)
 Active domain: Python — Level 1 Fundamentals
 Next lesson: Day 7 — Functions
@@ -108,7 +108,7 @@ Not started. Covers: Decorators, Context Managers, Standard Library, Type Hints
 | Week | Days Active | Lessons Done | PASS | NEEDS WORK | REDO | Domains Touched |
 |------|------------|-------------|------|-----------|------|----------------|
 | 1 (Jun 22–28) | 3 | 3 | 2 | 1 | 0 | Python |
-| 2 (Jun 29–Jul 5) | 3 | 3 | 1 | 0 | 1 | Python |
+| 2 (Jun 29–Jul 5) | 2 | 3 | 1 | 1 | 1 | Python |
 
 ---
 
@@ -137,9 +137,9 @@ Problems/topics that need to be redone before advancing.
 
 ## NOTES FOR NEXT LESSON GENERATOR
 
-- Day 6 (repeat of Loops) is PASS on resubmit — advance to Day 7 (Functions), do not repeat Loops again.
+- WEEK 2 REVIEW (2026-07-05) COMPLETE. Day 7 starts fresh: Functions, Level 1 Fundamentals.
+- Next week's path: Day 7 Functions → Day 8 Lists → Day 9 Tuples+Sets → Day 10 Dictionaries (DBMS theory block begins, 20 min/day) → Day 11 Exception Handling (closes out Level 1) → Day 12 OOP basics (Level 2 begins; OS theory block begins) → Day 13 OOP continued.
 - RESOLVED from Day 5: `continue` now used correctly (skip-check + unconditional print, no if-wrapper substitute); both empty and non-empty list truthiness cases created and printed.
-- Carry-forward watch: exact-output discipline took two tries this time — first submission printed `odd: {num}` in lowercase when the spec explicitly wrote `print(f"Odd: {num}")` with capital O; fixed within the same day on resubmit. Days 2–6 have now all had some form of "printed text doesn't literally match the required string" (labels, angle brackets, casing). Day 7 should still test an exact-string requirement to confirm this is now caught on the FIRST attempt, not just on correction.
-- Stretch (Day 6): multiplication table's spacing was fixed on resubmit (`4 x 3 = 12`); still uses an `if i % 2 == 0` filter to pick two numbers rather than directly choosing two variables — worked but convoluted, not worth flagging further since stretch is optional and output was correct.
-- Communication: Day 6 STAR (3rd attempt) — RESOLVED: explicit Situation/Task/Action/Result labels used for the first time, and "I" used consistently instead of "we". Spelling errors persist though: "taks" (task), "thorough" instead of "through", "actuall" (actual), "which which" (duplicate word), "issue's" (should be "issues"). Day 7 communication practice should keep the labeled format (now working) and add a proofread-before-submit step to target spelling specifically.
-- No theory block yet (starts Day 10)
+- Standing carry-forward watch (Days 2,4,5,6 all had this in some form): exact-output string discipline — mismatched labels, extra spaces, angle brackets, wrong casing. Day 6 needed a resubmit to catch the casing miss. Day 7 should include at least one exact-string requirement and note whether it's caught on the FIRST attempt now, not just on correction — this is the biggest open concept gap heading into next week.
+- Communication: STAR labels and "I"-voice are now resolved as of Day 6 (3rd attempt). Spelling errors persist: "taks" (task), "thorough" instead of "through", "actuall" (actual), "which which" (duplicate word), "issue's" (should be "issues"). Day 7 can move past STAR to a new communication task (e.g., a short professional update or a different behavioral prompt) but should keep a proofread-before-submit step to target spelling specifically.
+- Theory block starts Day 10 (DBMS), Day 12 (OS), Day 14 (CN) — not yet active.
