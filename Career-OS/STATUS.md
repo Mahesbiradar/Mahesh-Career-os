@@ -1,8 +1,8 @@
 # Career OS — STATUS
-Last updated: 2026-07-05 | Week 2 review complete — advancing to Day 7
+Last updated: 2026-07-06 | Day 7 evaluated — advancing to Day 8
 Current phase: Ignition (Days 1–30)
 Active domain: Python — Level 1 Fundamentals
-Next lesson: Day 7 — Functions
+Next lesson: Day 8 — Lists
 
 ---
 
@@ -35,13 +35,13 @@ Communication practice:
 
 | Field | Value |
 |-------|-------|
-| Current Day | 7 |
+| Current Day | 8 |
 | Current Phase | Ignition |
 | Active Domain | Python |
-| Current Topic | Functions |
-| Last Lesson | Day 6 — Loops (repeat) |
+| Current Topic | Lists |
+| Last Lesson | Day 7 — Functions |
 | Last Grade | PASS (resubmit) |
-| Last Submission File | submissions/day-06.py |
+| Last Submission File | submissions/day-07.py |
 
 ---
 
@@ -49,7 +49,7 @@ Communication practice:
 
 | Domain | Phase | Status | Last Topic | Days Spent | Notes |
 |--------|-------|--------|-----------|-----------|-------|
-| Python | Ignition | In Progress | Loops | 6 | Day 6 PASS on resubmit — advancing to Functions (Day 7) |
+| Python | Ignition | In Progress | Functions | 7 | Day 7 PASS on resubmit — advancing to Lists (Day 8) |
 | Backend Engineering | Ignition | Not Started | — | 0 | Starts ~Day 31 |
 | SQL | Core Depth | Not Started | — | 0 | Starts ~Day 45 |
 | DBMS (Theory) | Parallel | Not Started | — | 0 | Starts Day 10, 20 min/day |
@@ -76,11 +76,11 @@ Python has 5 levels. Track each topic's completion status here.
 | Control Flow | 4 | NEEDS WORK | Falsy check: used double-negation instead of `if name:`, label had extra space |
 | Loops | 5 | REDO | `continue` not used at all (if-condition used instead); break print had literal `<>` around item instead of exact value; non-empty list case never created/demonstrated |
 | Loops (repeat) | 6 | PASS (resubmit) | Fixed `Odd` casing and stretch spacing after first evaluation; all 5 required items met cleanly |
-| Functions | 7 | — | Pending |
-| Lists | 7 | — | Pending |
-| Tuples + Sets | 8 | — | Pending |
-| Dictionaries | 9 | — | Pending |
-| Exception Handling | 10 | — | Pending |
+| Functions | 7 | NEEDS WORK → PASS | First pass: `add`/`square` returned pre-formatted label strings instead of the raw value the spec required. Resubmitted twice: 1st fix corrected return values but introduced a stray `+2` and a double-space bug from `print("Sum: ", value)`; 2nd fix used `print("Sum:", value)` relying on print's own separator — exact output confirmed by running the file. All requirements + stretch met. |
+| Lists | 8 | — | Pending |
+| Tuples + Sets | 9 | — | Pending |
+| Dictionaries | 10 | — | Pending |
+| Exception Handling | 11 | — | Pending |
 
 ### Level 2 — Intermediate (Days ~11–20)
 Not started. Covers: OOP, File Handling, Modules, Comprehensions, Generators
@@ -100,6 +100,7 @@ Not started. Covers: Decorators, Context Managers, Standard Library, Type Hints
 | 4 | submissions/day-04.py | Control Flow | NEEDS WORK | 2026-06-30 | Falsy check used double-negation (`if not name != ""`) instead of `if name:`; label had extra space `"Name : "` |
 | 5 | submissions/day-05.py | Loops | REDO | 2026-07-04 | `continue` requirement skipped entirely (used `if num % 2 != 0:` instead); `Found: <item>` printed literal angle brackets; only empty-list case demonstrated, non-empty list never created |
 | 6 | submissions/day-06.py | Loops (repeat) | NEEDS WORK → PASS | 2026-07-04 | First pass: `odd` lowercase instead of `Odd`. Resubmitted same day with fix + stretch spacing corrected — all requirements met |
+| 7 | submissions/day-07.py | Functions | NEEDS WORK → PASS | 2026-07-06 | Initial: `add`/`square` returned label-baked strings instead of raw values. Resubmit 1 fixed return values but added a stray `+2` and a double-space bug. Resubmit 2 fixed both — verified by running the file, all output exact. `greet`, `power` (defaults), `introduce` (function calling function), and stretch `total` all correct. Revision check both correct. Communication: spelling errors persist (preform, multple, unneccesary, wrtting) and casual lowercase "i". |
 
 ---
 
@@ -109,6 +110,7 @@ Not started. Covers: Decorators, Context Managers, Standard Library, Type Hints
 |------|------------|-------------|------|-----------|------|----------------|
 | 1 (Jun 22–28) | 3 | 3 | 2 | 1 | 0 | Python |
 | 2 (Jun 29–Jul 5) | 2 | 3 | 1 | 1 | 1 | Python |
+| 3 (Jul 6–12) | 1 | 1 | 1 | 0 | 0 | Python |
 
 ---
 
@@ -137,9 +139,10 @@ Problems/topics that need to be redone before advancing.
 
 ## NOTES FOR NEXT LESSON GENERATOR
 
-- WEEK 2 REVIEW (2026-07-05) COMPLETE. Day 7 starts fresh: Functions, Level 1 Fundamentals.
-- Next week's path: Day 7 Functions → Day 8 Lists → Day 9 Tuples+Sets → Day 10 Dictionaries (DBMS theory block begins, 20 min/day) → Day 11 Exception Handling (closes out Level 1) → Day 12 OOP basics (Level 2 begins; OS theory block begins) → Day 13 OOP continued.
-- RESOLVED from Day 5: `continue` now used correctly (skip-check + unconditional print, no if-wrapper substitute); both empty and non-empty list truthiness cases created and printed.
-- Standing carry-forward watch (Days 2,4,5,6 all had this in some form): exact-output string discipline — mismatched labels, extra spaces, angle brackets, wrong casing. Day 6 needed a resubmit to catch the casing miss. Day 7 should include at least one exact-string requirement and note whether it's caught on the FIRST attempt now, not just on correction — this is the biggest open concept gap heading into next week.
-- Communication: STAR labels and "I"-voice are now resolved as of Day 6 (3rd attempt). Spelling errors persist: "taks" (task), "thorough" instead of "through", "actuall" (actual), "which which" (duplicate word), "issue's" (should be "issues"). Day 7 can move past STAR to a new communication task (e.g., a short professional update or a different behavioral prompt) but should keep a proofread-before-submit step to target spelling specifically.
+- Day 7 (Functions) evaluated PASS on resubmit (2026-07-06, 2 resubmits). Day 8 (Lists) is next, Level 1 Fundamentals.
+- Next path: Day 8 Lists → Day 9 Tuples+Sets → Day 10 Dictionaries (DBMS theory block begins, 20 min/day) → Day 11 Exception Handling (closes out Level 1) → Day 12 OOP basics (Level 2 begins; OS theory block begins) → Day 13 OOP continued.
+- RESOLVED from Day 7: return-vs-print distinction (returning raw values vs. baking a label into the return string) — fixed correctly on 2nd resubmit, output verified by actually running the file. Keep a light watch only; no need to re-test directly.
+- RESOLVED from Day 5/6: `continue`, non-empty list case, exact-output casing all now consistently correct.
+- Standing carry-forward watch: exact-output string discipline (labels/spacing/casing) is now solid — Day 7's `greet`, `power`, `introduce` all hit exact formats on the first attempt with no resubmit needed. This concern can be considered resolved; keep a light watch only.
+- Communication: STAR/'"I"-voice structure is fine, but spelling errors persist and got worse this round: "preform" (perform), "multple" (multiple), "unneccesary" (unnecessary), "wrtting" (writing), "diffrence" (difference), "curremt" (current), "immedeatly" (immediately), "taks" (task), "warapped" (wrapped), plus casual lowercase "i'd" instead of "I'd". Day 8 communication task should explicitly ask for a proofread pass before submitting, and keep prompts short enough that spelling errors are easy to self-catch.
 - Theory block starts Day 10 (DBMS), Day 12 (OS), Day 14 (CN) — not yet active.
