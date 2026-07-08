@@ -1,8 +1,8 @@
 # Career OS — STATUS
-Last updated: 2026-07-07 | Day 8 evaluated — advancing to Day 9
+Last updated: 2026-07-08 | Day 9 evaluated — advancing to Day 10
 Current phase: Ignition (Days 1–30)
 Active domain: Python — Level 1 Fundamentals
-Next lesson: Day 9 — Tuples + Sets
+Next lesson: Day 10 — Dictionaries
 
 ---
 
@@ -35,13 +35,13 @@ Communication practice:
 
 | Field | Value |
 |-------|-------|
-| Current Day | 9 |
+| Current Day | 10 |
 | Current Phase | Ignition |
 | Active Domain | Python |
-| Current Topic | Tuples + Sets |
-| Last Lesson | Day 8 — Lists |
+| Current Topic | Dictionaries |
+| Last Lesson | Day 9 — Tuples + Sets |
 | Last Grade | PASS |
-| Last Submission File | submissions/day-08.py |
+| Last Submission File | submissions/day-09.py |
 
 ---
 
@@ -49,7 +49,7 @@ Communication practice:
 
 | Domain | Phase | Status | Last Topic | Days Spent | Notes |
 |--------|-------|--------|-----------|-----------|-------|
-| Python | Ignition | In Progress | Lists | 8 | Day 8 PASS on first attempt — advancing to Tuples + Sets (Day 9) |
+| Python | Ignition | In Progress | Tuples + Sets | 9 | Day 9 PASS on first attempt — advancing to Dictionaries (Day 10) |
 | Backend Engineering | Ignition | Not Started | — | 0 | Starts ~Day 31 |
 | SQL | Core Depth | Not Started | — | 0 | Starts ~Day 45 |
 | DBMS (Theory) | Parallel | Not Started | — | 0 | Starts Day 10, 20 min/day |
@@ -57,7 +57,7 @@ Communication practice:
 | CN (Theory) | Parallel | Not Started | — | 0 | Starts Day 14, 20 min/day |
 | Frontend | Build Phase | Not Started | — | 0 | Starts ~Day 76 |
 | Cloud/Deployment | Build Phase | Not Started | — | 0 | Starts ~Day 100 |
-| Communication | Parallel | In Progress | Professional email intro | 3 | 15 min/day built into every lesson |
+| Communication | Parallel | In Progress | List vs tuple interview answer | 4 | 15 min/day built into every lesson; Day 9 concept clear, but grammar/spelling still need polish |
 | Job Preparation | Offer Mode | Not Started | — | 0 | Starts ~Day 121 |
 
 ---
@@ -78,7 +78,7 @@ Python has 5 levels. Track each topic's completion status here.
 | Loops (repeat) | 6 | PASS (resubmit) | Fixed `Odd` casing and stretch spacing after first evaluation; all 5 required items met cleanly |
 | Functions | 7 | NEEDS WORK → PASS | First pass: `add`/`square` returned pre-formatted label strings instead of the raw value the spec required. Resubmitted twice: 1st fix corrected return values but introduced a stray `+2` and a double-space bug from `print("Sum: ", value)`; 2nd fix used `print("Sum:", value)` relying on print's own separator — exact output confirmed by running the file. All requirements + stretch met. |
 | Lists | 8 | PASS | All 5 requirements + stretch met on first attempt: append/insert/remove/enumerate all correct, sort+slice stretch correct, no errors |
-| Tuples + Sets | 9 | — | Pending |
+| Tuples + Sets | 9 | PASS | All 5 requirements + stretch met: tuple creation/unpacking correct, set overlap/intersection/union/difference correct by inspection; Python launcher unavailable in shell |
 | Dictionaries | 10 | — | Pending |
 | Exception Handling | 11 | — | Pending |
 
@@ -102,6 +102,7 @@ Not started. Covers: Decorators, Context Managers, Standard Library, Type Hints
 | 6 | submissions/day-06.py | Loops (repeat) | NEEDS WORK → PASS | 2026-07-04 | First pass: `odd` lowercase instead of `Odd`. Resubmitted same day with fix + stretch spacing corrected — all requirements met |
 | 7 | submissions/day-07.py | Functions | NEEDS WORK → PASS | 2026-07-06 | Initial: `add`/`square` returned label-baked strings instead of raw values. Resubmit 1 fixed return values but added a stray `+2` and a double-space bug. Resubmit 2 fixed both — verified by running the file, all output exact. `greet`, `power` (defaults), `introduce` (function calling function), and stretch `total` all correct. Revision check both correct. Communication: spelling errors persist (preform, multple, unneccesary, wrtting) and casual lowercase "i". |
 | 8 | submissions/day-08.py | Lists | PASS | 2026-07-07 | First attempt clean: append/insert/remove/enumerate all correct with exact labels; stretch sort+slice correct too. Revision check both correct (concept accurate despite typos). Self-intro had no spelling errors this time (improvement), but revision-check answers still had typos (returing, interget, prameter, defualt) and casual lowercase "i"/sentence fragments recur. |
+| 9 | submissions/day-09.py | Tuples + Sets | PASS | 2026-07-08 | All required tuple/set items met, plus stretch difference operation. Revision check both correct. Communication concept clear, but grammar/spelling still need polish (`an ordered`, `parentheses`, `Therefore`, spacing after commas). |
 
 ---
 
@@ -111,7 +112,7 @@ Not started. Covers: Decorators, Context Managers, Standard Library, Type Hints
 |------|------------|-------------|------|-----------|------|----------------|
 | 1 (Jun 22–28) | 3 | 3 | 2 | 1 | 0 | Python |
 | 2 (Jun 29–Jul 5) | 2 | 3 | 1 | 1 | 1 | Python |
-| 3 (Jul 6–12) | 2 | 2 | 2 | 0 | 0 | Python |
+| 3 (Jul 6–12) | 3 | 3 | 3 | 0 | 0 | Python |
 
 ---
 
@@ -140,10 +141,10 @@ Problems/topics that need to be redone before advancing.
 
 ## NOTES FOR NEXT LESSON GENERATOR
 
-- Day 8 (Lists) evaluated PASS on first attempt (2026-07-07, no resubmit needed). Day 9 (Tuples + Sets) is next, Level 1 Fundamentals.
-- Next path: Day 9 Tuples+Sets → Day 10 Dictionaries (DBMS theory block begins, 20 min/day) → Day 11 Exception Handling (closes out Level 1) → Day 12 OOP basics (Level 2 begins; OS theory block begins) → Day 13 OOP continued.
+- Day 9 (Tuples + Sets) evaluated PASS on first attempt (2026-07-08, no resubmit needed). Day 10 (Dictionaries) is next, Level 1 Fundamentals; DBMS theory block begins.
+- Next path: Day 10 Dictionaries (DBMS theory block begins, 20 min/day) → Day 11 Exception Handling (closes out Level 1) → Day 12 OOP basics (Level 2 begins; OS theory block begins) → Day 13 OOP continued.
 - RESOLVED from Day 7: return-vs-print distinction (returning raw values vs. baking a label into the return string) — fixed correctly on 2nd resubmit, output verified by actually running the file. Keep a light watch only; no need to re-test directly.
 - RESOLVED from Day 5/6: `continue`, non-empty list case, exact-output casing all now consistently correct.
-- Standing carry-forward watch: exact-output string discipline (labels/spacing/casing) is now solid — Day 7's `greet`, `power`, `introduce` and Day 8's list-method labels all hit exact formats on the first attempt with no resubmit needed. This concern can be considered resolved; keep a light watch only.
-- Communication: the self-introduction paragraph itself had zero spelling errors on Day 8 (improvement over Day 7's proofread request paying off), but revision-check answers still show typos ("returing", "interget", "prameter", "defualt") and casual habits persist — lowercase "i" mid-answer, sentences starting with "And", and sentence fragments (e.g. "Managing 15 to 20 teams..." / "Using React.js, Django, and PostgreSQL." as standalone fragments instead of joined clauses). Day 9 communication task should ask for the same proofread discipline to extend to short-answer responses, not just the intro paragraph, and nudge toward joining fragments into full sentences.
+- Standing carry-forward watch: exact-output string discipline remains solid — Day 9 labels and unpacked tuple format were correct on the first attempt. This concern can be considered resolved; keep a light watch only.
+- Communication: Day 9 interview answer was conceptually clear and professional in intent, but still had proofreading issues: "a ordered" should be "an ordered", "paranthesis" should be "parentheses", "Therefor" should be "Therefore", and commas need spaces after them. Day 10 should keep nudging complete, polished interview-style sentences and careful proofreading in revision answers as well as communication practice.
 - Theory block starts Day 10 (DBMS), Day 12 (OS), Day 14 (CN) — not yet active.
