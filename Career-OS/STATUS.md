@@ -1,8 +1,8 @@
 # Career OS — STATUS
-Last updated: 2026-07-10 | Day 10 corrected — PASS, advancing to Day 11
+Last updated: 2026-07-11 | Day 11 — PASS, advancing to Day 12
 Current phase: Ignition (Days 1–30)
-Active domain: Python — Level 1 Fundamentals
-Next lesson: Day 11 — Exception Handling
+Active domain: Python — Level 2 Intermediate
+Next lesson: Day 12 — OOP Basics
 
 ---
 
@@ -35,13 +35,13 @@ Communication practice:
 
 | Field | Value |
 |-------|-------|
-| Current Day | 11 |
+| Current Day | 12 |
 | Current Phase | Ignition |
 | Active Domain | Python |
-| Current Topic | Exception Handling |
-| Last Lesson | Day 10 — Dictionaries |
+| Current Topic | OOP Basics |
+| Last Lesson | Day 11 — Exception Handling |
 | Last Grade | PASS |
-| Last Submission File | submissions/day-10.py |
+| Last Submission File | submissions/day-11.py |
 
 ---
 
@@ -49,15 +49,15 @@ Communication practice:
 
 | Domain | Phase | Status | Last Topic | Days Spent | Notes |
 |--------|-------|--------|-----------|-----------|-------|
-| Python | Ignition | In Progress | Dictionaries | 10 | Day 10 PASS after correction: dictionary operations and stretch completed; f-string quote syntax fixed before moving to Exception Handling (Day 11) |
+| Python | Ignition | In Progress | Exception Handling | 11 | Day 11 PASS: required `try`/`except ValueError`/`else`/`finally` pieces present, valid/skipped score data collected, average printed; ready for OOP Basics (Day 12) |
 | Backend Engineering | Ignition | Not Started | — | 0 | Starts ~Day 31 |
 | SQL | Core Depth | Not Started | — | 0 | Starts ~Day 45 |
-| DBMS (Theory) | Parallel | In Progress | What is a DBMS | 1 | Day 10 DBMS intro submitted: structured storage, CRUD, reduced redundancy/inconsistency, centralized storage |
+| DBMS (Theory) | Parallel | In Progress | ER Modeling | 2 | Day 11 ER modeling submitted: entity, attribute, and relationship concepts present; proofreading/spelling still need polish |
 | OS (Theory) | Parallel | Not Started | — | 0 | Starts Day 12, 20 min/day |
 | CN (Theory) | Parallel | Not Started | — | 0 | Starts Day 14, 20 min/day |
 | Frontend | Build Phase | Not Started | — | 0 | Starts ~Day 76 |
 | Cloud/Deployment | Build Phase | Not Started | — | 0 | Starts ~Day 100 |
-| Communication | Parallel | In Progress | Dictionary interview answer | 5 | Day 10 concept was clear and project-related, but grammar/spelling still need polish |
+| Communication | Parallel | In Progress | Invalid user input interview answer | 6 | Day 11 answer was understandable and mentioned `try`, `except`, and specific exceptions, but needs five complete polished sentences and cleaner proofreading |
 | Job Preparation | Offer Mode | Not Started | — | 0 | Starts ~Day 121 |
 
 ---
@@ -80,10 +80,13 @@ Python has 5 levels. Track each topic's completion status here.
 | Lists | 8 | PASS | All 5 requirements + stretch met on first attempt: append/insert/remove/enumerate all correct, sort+slice stretch correct, no errors |
 | Tuples + Sets | 9 | PASS | All 5 requirements + stretch met: tuple creation/unpacking correct, set overlap/intersection/union/difference correct by inspection; Python launcher unavailable in shell |
 | Dictionaries | 10 | PASS (resubmit) | Initial submission had two f-string quote syntax errors; corrected to use single quotes inside f-string expressions. All required dictionary operations + stretch met by inspection. |
-| Exception Handling | 11 | — | Pending |
+| Exception Handling | 11 | PASS | All required exception-handling pieces present by inspection: exact raw score list, `ValueError` handling, `else`, `finally`, collected valid/skipped data, and average output. Optional stretch attempted but not fully polished. |
 
-### Level 2 — Intermediate (Days ~11–20)
-Not started. Covers: OOP, File Handling, Modules, Comprehensions, Generators
+### Level 2 — Intermediate (Days ~12–20)
+
+| Topic | Day | Grade | Notes |
+|-------|-----|-------|-------|
+| OOP Basics | 12 | — | Pending |
 
 ### Level 3 — Applied Python (Days ~21–30)
 Not started. Covers: Decorators, Context Managers, Standard Library, Type Hints
@@ -104,6 +107,7 @@ Not started. Covers: Decorators, Context Managers, Standard Library, Type Hints
 | 8 | submissions/day-08.py | Lists | PASS | 2026-07-07 | First attempt clean: append/insert/remove/enumerate all correct with exact labels; stretch sort+slice correct too. Revision check both correct (concept accurate despite typos). Self-intro had no spelling errors this time (improvement), but revision-check answers still had typos (returing, interget, prameter, defualt) and casual lowercase "i"/sentence fragments recur. |
 | 9 | submissions/day-09.py | Tuples + Sets | PASS | 2026-07-08 | All required tuple/set items met, plus stretch difference operation. Revision check both correct. Communication concept clear, but grammar/spelling still need polish (`an ordered`, `parentheses`, `Therefore`, spacing after commas). |
 | 10 | submissions/day-10.py | Dictionaries | NEEDS WORK → PASS | 2026-07-10 | Initial: two f-strings used nested double quotes, causing syntax errors. Resubmit fixed quote usage; create/read/update/delete/get/items and stretch scores all met by inspection. Revision check correct. Communication and DBMS theory were conceptually clear, but proofreading issues persist. |
+| 11 | submissions/day-11.py | Exception Handling | PASS | 2026-07-11 | All required `try`/`except ValueError`/`else`/`finally` items met by inspection; valid/skipped lists and average printed. Revision check correct. Communication and ER theory were conceptually clear, but sentence polish/spelling still need work. |
 
 ---
 
@@ -113,7 +117,7 @@ Not started. Covers: Decorators, Context Managers, Standard Library, Type Hints
 |------|------------|-------------|------|-----------|------|----------------|
 | 1 (Jun 22–28) | 3 | 3 | 2 | 1 | 0 | Python |
 | 2 (Jun 29–Jul 5) | 2 | 3 | 1 | 1 | 1 | Python |
-| 3 (Jul 6–12) | 4 | 4 | 4 | 0 | 0 | Python, DBMS |
+| 3 (Jul 6–12) | 5 | 5 | 5 | 0 | 0 | Python, DBMS |
 
 ---
 
@@ -142,10 +146,10 @@ Problems/topics that need to be redone before advancing.
 
 ## NOTES FOR NEXT LESSON GENERATOR
 
-- Day 10 (Dictionaries) corrected and marked PASS after resubmission (2026-07-10). Advance normally to Day 11 Exception Handling; no mandatory fix block needed.
-- Carry-forward watch only: the initial Day 10 issue was nested double quotes inside f-string expressions; the user corrected it to single quotes inside the expression. Keep reminding to run the file before submitting.
-- Next path: Day 11 Exception Handling (closes out Level 1; DBMS theory continues) → Day 12 OOP basics (Level 2 begins; OS theory block begins) → Day 13 OOP continued.
-- DBMS theory Day 10: explanation covered structured table storage, CRUD, reduced redundancy/inconsistency, and centralized storage. Continue DBMS theory on the next mapped topic.
-- Communication: Day 10 dictionary answer was understandable and tied to a real project, but grammar/proofreading issues persist: use "a data structure", "key-value pairs", "three types of user groups", "drivers, coordinators, and admins", "therefore", "centralized", "performing", and "inconsistency".
+- Day 11 (Exception Handling) marked PASS (2026-07-11). Advance normally to Day 12 OOP Basics; no mandatory fix block needed.
+- Carry-forward watch only: Day 11 code met requirements, but it used separate loops for `except`, `else`, and `finally`; encourage one clean loop when possible.
+- Next path: Day 12 OOP Basics (Level 2 begins; OS theory block begins) → Day 13 OOP continued → Day 14 File Handling / modules path depending on the sequence.
+- DBMS theory Day 11: ER modeling explanation covered entity, attribute, relationship, and diagram symbols, but spelling/proofreading needs polish. Start OS theory on Day 12 with the mapped "What is an OS" resource.
+- Communication: Day 11 invalid-input answer was understandable, but not fully polished as five complete sentences. Keep watching for lowercase "i"/"ill", spelling, and sentence fragments.
 - RESOLVED from Day 7: return-vs-print distinction (returning raw values vs. baking a label into the return string) — fixed correctly on 2nd resubmit, output verified by actually running the file. Keep a light watch only; no need to re-test directly.
 - RESOLVED from Day 5/6: `continue`, non-empty list case, exact-output casing all now consistently correct.
