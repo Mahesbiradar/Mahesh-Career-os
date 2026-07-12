@@ -1,5 +1,5 @@
 # Career OS — STATUS
-Last updated: 2026-07-11 | Day 11 — PASS, advancing to Day 12
+Last updated: 2026-07-12 | Week 3 review complete; ready for Day 12 — OOP Basics
 Current phase: Ignition (Days 1–30)
 Active domain: Python — Level 2 Intermediate
 Next lesson: Day 12 — OOP Basics
@@ -117,7 +117,7 @@ Not started. Covers: Decorators, Context Managers, Standard Library, Type Hints
 |------|------------|-------------|------|-----------|------|----------------|
 | 1 (Jun 22–28) | 3 | 3 | 2 | 1 | 0 | Python |
 | 2 (Jun 29–Jul 5) | 2 | 3 | 1 | 1 | 1 | Python |
-| 3 (Jul 6–12) | 5 | 5 | 5 | 0 | 0 | Python, DBMS |
+| 3 (Jul 6–12) | 5 | 5 | 5 | 0 | 0 | Python, DBMS, Communication |
 
 ---
 
@@ -146,10 +146,11 @@ Problems/topics that need to be redone before advancing.
 
 ## NOTES FOR NEXT LESSON GENERATOR
 
-- Day 11 (Exception Handling) marked PASS (2026-07-11). Advance normally to Day 12 OOP Basics; no mandatory fix block needed.
+- Week 3 review complete (2026-07-12): Days 7-11 completed; final weekly breakdown is 5 PASS, 0 NEEDS WORK, 0 REDO. No carry-over REDO before Day 12.
 - Carry-forward watch only: Day 11 code met requirements, but it used separate loops for `except`, `else`, and `finally`; encourage one clean loop when possible.
-- Next path: Day 12 OOP Basics (Level 2 begins; OS theory block begins) → Day 13 OOP continued → Day 14 File Handling / modules path depending on the sequence.
-- DBMS theory Day 11: ER modeling explanation covered entity, attribute, relationship, and diagram symbols, but spelling/proofreading needs polish. Start OS theory on Day 12 with the mapped "What is an OS" resource.
+- Next week starts with Day 12 OOP Basics (Level 2 begins; OS theory block begins). Plan Day 12 -> OOP Basics; Day 13 -> OOP continued; Day 14 -> File Handling / modules path from mapped sequence; Days 15-18 -> continue the mapped Level 2 Python sequence.
+- Theory next week: OS starts on Day 12 with the mapped "What is an OS" resource. DBMS theory has a 2-day completed streak; proofreading/spelling still need polish when theory answers resume.
+- REDO watch: no topic has 2+ REDO attempts; no DOMAIN PROGRESS TRACKER flag needed this week.
 - Communication: Day 11 invalid-input answer was understandable, but not fully polished as five complete sentences. Keep watching for lowercase "i"/"ill", spelling, and sentence fragments.
 - RESOLVED from Day 7: return-vs-print distinction (returning raw values vs. baking a label into the return string) — fixed correctly on 2nd resubmit, output verified by actually running the file. Keep a light watch only; no need to re-test directly.
 - RESOLVED from Day 5/6: `continue`, non-empty list case, exact-output casing all now consistently correct.
