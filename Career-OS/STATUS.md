@@ -1,8 +1,8 @@
 # Career OS — STATUS
-Last updated: 2026-07-12 | Week 3 review complete; ready for Day 12 — OOP Basics
+Last updated: 2026-07-13 | Day 12 corrected — PASS, ready for Day 13
 Current phase: Ignition (Days 1–30)
 Active domain: Python — Level 2 Intermediate
-Next lesson: Day 12 — OOP Basics
+Next lesson: Day 13 — Class Variables
 
 ---
 
@@ -35,13 +35,13 @@ Communication practice:
 
 | Field | Value |
 |-------|-------|
-| Current Day | 12 |
+| Current Day | 13 |
 | Current Phase | Ignition |
 | Active Domain | Python |
-| Current Topic | OOP Basics |
-| Last Lesson | Day 11 — Exception Handling |
+| Current Topic | Class Variables |
+| Last Lesson | Day 12 — OOP Basics |
 | Last Grade | PASS |
-| Last Submission File | submissions/day-11.py |
+| Last Submission File | submissions/day-12.py |
 
 ---
 
@@ -49,15 +49,15 @@ Communication practice:
 
 | Domain | Phase | Status | Last Topic | Days Spent | Notes |
 |--------|-------|--------|-----------|-----------|-------|
-| Python | Ignition | In Progress | Exception Handling | 11 | Day 11 PASS: required `try`/`except ValueError`/`else`/`finally` pieces present, valid/skipped score data collected, average printed; ready for OOP Basics (Day 12) |
+| Python | Ignition | In Progress | OOP Basics | 12 | Day 12 PASS after resubmit: class, `__init__`, instance attributes, methods, two objects, role update, salary output, optional raise method, and exact second role label all confirmed by inspection. |
 | Backend Engineering | Ignition | Not Started | — | 0 | Starts ~Day 31 |
 | SQL | Core Depth | Not Started | — | 0 | Starts ~Day 45 |
 | DBMS (Theory) | Parallel | In Progress | ER Modeling | 2 | Day 11 ER modeling submitted: entity, attribute, and relationship concepts present; proofreading/spelling still need polish |
-| OS (Theory) | Parallel | Not Started | — | 0 | Starts Day 12, 20 min/day |
+| OS (Theory) | Parallel | In Progress | What is an OS | 1 | Day 12 OS explanation covered OS as bridge between applications and hardware plus CPU/memory/storage/file/device management; omit ChatGPT-drafted text next time and keep theory answers in own words only. |
 | CN (Theory) | Parallel | Not Started | — | 0 | Starts Day 14, 20 min/day |
 | Frontend | Build Phase | Not Started | — | 0 | Starts ~Day 76 |
 | Cloud/Deployment | Build Phase | Not Started | — | 0 | Starts ~Day 100 |
-| Communication | Parallel | In Progress | Invalid user input interview answer | 6 | Day 11 answer was understandable and mentioned `try`, `except`, and specific exceptions, but needs five complete polished sentences and cleaner proofreading |
+| Communication | Parallel | In Progress | Class vs object explanation | 7 | Day 12 answer included the required OOP keywords and the basic difference, but had spelling/grammar issues (`Instnace`, `os`, `An method if function`) and needs polished complete sentences. |
 | Job Preparation | Offer Mode | Not Started | — | 0 | Starts ~Day 121 |
 
 ---
@@ -86,7 +86,8 @@ Python has 5 levels. Track each topic's completion status here.
 
 | Topic | Day | Grade | Notes |
 |-------|-----|-------|-------|
-| OOP Basics | 12 | — | Pending |
+| OOP Basics | 12 | NEEDS WORK → PASS | Initial submission missed the exact second role label; resubmit fixed it to `Employee 2 role still:`. All required OOP pieces met by inspection: `Employee`, `__init__`, instance attributes, `full_name`, `annual_salary`, two objects, role update, and optional raise method. |
+| Class Variables | 13 | — | Pending |
 
 ### Level 3 — Applied Python (Days ~21–30)
 Not started. Covers: Decorators, Context Managers, Standard Library, Type Hints
@@ -108,6 +109,7 @@ Not started. Covers: Decorators, Context Managers, Standard Library, Type Hints
 | 9 | submissions/day-09.py | Tuples + Sets | PASS | 2026-07-08 | All required tuple/set items met, plus stretch difference operation. Revision check both correct. Communication concept clear, but grammar/spelling still need polish (`an ordered`, `parentheses`, `Therefore`, spacing after commas). |
 | 10 | submissions/day-10.py | Dictionaries | NEEDS WORK → PASS | 2026-07-10 | Initial: two f-strings used nested double quotes, causing syntax errors. Resubmit fixed quote usage; create/read/update/delete/get/items and stretch scores all met by inspection. Revision check correct. Communication and DBMS theory were conceptually clear, but proofreading issues persist. |
 | 11 | submissions/day-11.py | Exception Handling | PASS | 2026-07-11 | All required `try`/`except ValueError`/`else`/`finally` items met by inspection; valid/skipped lists and average printed. Revision check correct. Communication and ER theory were conceptually clear, but sentence polish/spelling still need work. |
+| 12 | submissions/day-12.py | OOP Basics | NEEDS WORK → PASS | 2026-07-13 | Initial: exact label missed (`Updated Employee 2 role:` instead of `Employee 2 role still:`). Resubmit fixed the label; all required OOP items met by inspection. Revision check correct. Communication and OS theory were conceptually clear, but proofreading and own-words-only theory discipline need work. |
 
 ---
 
@@ -118,6 +120,7 @@ Not started. Covers: Decorators, Context Managers, Standard Library, Type Hints
 | 1 (Jun 22–28) | 3 | 3 | 2 | 1 | 0 | Python |
 | 2 (Jun 29–Jul 5) | 2 | 3 | 1 | 1 | 1 | Python |
 | 3 (Jul 6–12) | 5 | 5 | 5 | 0 | 0 | Python, DBMS, Communication |
+| 4 (Jul 13–19) | 1 | 1 | 1 | 0 | 0 | Python, OS, Communication |
 
 ---
 
@@ -146,11 +149,9 @@ Problems/topics that need to be redone before advancing.
 
 ## NOTES FOR NEXT LESSON GENERATOR
 
-- Week 3 review complete (2026-07-12): Days 7-11 completed; final weekly breakdown is 5 PASS, 0 NEEDS WORK, 0 REDO. No carry-over REDO before Day 12.
-- Carry-forward watch only: Day 11 code met requirements, but it used separate loops for `except`, `else`, and `finally`; encourage one clean loop when possible.
-- Next week starts with Day 12 OOP Basics (Level 2 begins; OS theory block begins). Plan Day 12 -> OOP Basics; Day 13 -> OOP continued; Day 14 -> File Handling / modules path from mapped sequence; Days 15-18 -> continue the mapped Level 2 Python sequence.
-- Theory next week: OS starts on Day 12 with the mapped "What is an OS" resource. DBMS theory has a 2-day completed streak; proofreading/spelling still need polish when theory answers resume.
-- REDO watch: no topic has 2+ REDO attempts; no DOMAIN PROGRESS TRACKER flag needed this week.
-- Communication: Day 11 invalid-input answer was understandable, but not fully polished as five complete sentences. Keep watching for lowercase "i"/"ill", spelling, and sentence fragments.
-- RESOLVED from Day 7: return-vs-print distinction (returning raw values vs. baking a label into the return string) — fixed correctly on 2nd resubmit, output verified by actually running the file. Keep a light watch only; no need to re-test directly.
-- RESOLVED from Day 5/6: `continue`, non-empty list case, exact-output casing all now consistently correct.
+- Day 12 OOP Basics corrected on 2026-07-13 and revised to PASS. No fix block is needed for Day 13.
+- Day 13 should cover Class Variables / OOP continued from the mapped sequence.
+- Carry-forward watch: OOP code was structurally correct and the exact label issue was fixed in resubmission; continue reminding that output labels must match the checklist exactly.
+- Theory next: OS has a 1-day streak after "What is an OS"; continue the mapped OS theory sequence. Count only the student's own wording; do not include ChatGPT-generated theory text in future submissions.
+- Communication: Day 12 class-vs-object answer had the required keywords and basic idea, but needs polished complete sentences and spelling fixes (`instance`, `attribute`, "method is a function", "objects"). Keep watching lowercase/casual phrasing and sentence fragments.
+- REDO watch: no topic has 2+ REDO attempts; no DOMAIN PROGRESS TRACKER flag needed.
