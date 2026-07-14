@@ -1,8 +1,8 @@
 # Career OS — STATUS
-Last updated: 2026-07-13 | Day 12 corrected — PASS, ready for Day 13
+Last updated: 2026-07-14 | Day 13 PASS, ready for Day 14
 Current phase: Ignition (Days 1–30)
 Active domain: Python — Level 2 Intermediate
-Next lesson: Day 13 — Class Variables
+Next lesson: Day 14 — classmethods & staticmethods
 
 ---
 
@@ -35,13 +35,13 @@ Communication practice:
 
 | Field | Value |
 |-------|-------|
-| Current Day | 13 |
+| Current Day | 14 |
 | Current Phase | Ignition |
 | Active Domain | Python |
-| Current Topic | Class Variables |
-| Last Lesson | Day 12 — OOP Basics |
+| Current Topic | classmethods & staticmethods |
+| Last Lesson | Day 13 — Class Variables |
 | Last Grade | PASS |
-| Last Submission File | submissions/day-12.py |
+| Last Submission File | submissions/day-13.py |
 
 ---
 
@@ -49,15 +49,15 @@ Communication practice:
 
 | Domain | Phase | Status | Last Topic | Days Spent | Notes |
 |--------|-------|--------|-----------|-----------|-------|
-| Python | Ignition | In Progress | OOP Basics | 12 | Day 12 PASS after resubmit: class, `__init__`, instance attributes, methods, two objects, role update, salary output, optional raise method, and exact second role label all confirmed by inspection. |
+| Python | Ignition | In Progress | Class Variables | 13 | Day 13 PASS: class variables `raise_amount` and `num_of_employees`, instance attributes, shared employee count, object-level raise override, `apply_raise`, exact output labels, and stretch third employee all confirmed by inspection. |
 | Backend Engineering | Ignition | Not Started | — | 0 | Starts ~Day 31 |
 | SQL | Core Depth | Not Started | — | 0 | Starts ~Day 45 |
 | DBMS (Theory) | Parallel | In Progress | ER Modeling | 2 | Day 11 ER modeling submitted: entity, attribute, and relationship concepts present; proofreading/spelling still need polish |
-| OS (Theory) | Parallel | In Progress | What is an OS | 1 | Day 12 OS explanation covered OS as bridge between applications and hardware plus CPU/memory/storage/file/device management; omit ChatGPT-drafted text next time and keep theory answers in own words only. |
+| OS (Theory) | Parallel | In Progress | Process States & Schedulers | 2 | Day 13 OS explanation covered new, ready, running, waiting/blocked, terminated, and scheduler roles; next time correct medium-term scheduler wording and continue proofreading. |
 | CN (Theory) | Parallel | Not Started | — | 0 | Starts Day 14, 20 min/day |
 | Frontend | Build Phase | Not Started | — | 0 | Starts ~Day 76 |
 | Cloud/Deployment | Build Phase | Not Started | — | 0 | Starts ~Day 100 |
-| Communication | Parallel | In Progress | Class vs object explanation | 7 | Day 12 answer included the required OOP keywords and the basic difference, but had spelling/grammar issues (`Instnace`, `os`, `An method if function`) and needs polished complete sentences. |
+| Communication | Parallel | In Progress | Class variable vs instance variable explanation | 8 | Day 13 answer included the required keywords and the shared vs per-object idea, but was not 6 polished sentences and had repeated spelling issues (`variable`, `every`, `default`, `employees`, `object`, `separate`, `instance`, `doesn't`). |
 | Job Preparation | Offer Mode | Not Started | — | 0 | Starts ~Day 121 |
 
 ---
@@ -87,7 +87,8 @@ Python has 5 levels. Track each topic's completion status here.
 | Topic | Day | Grade | Notes |
 |-------|-----|-------|-------|
 | OOP Basics | 12 | NEEDS WORK → PASS | Initial submission missed the exact second role label; resubmit fixed it to `Employee 2 role still:`. All required OOP pieces met by inspection: `Employee`, `__init__`, instance attributes, `full_name`, `annual_salary`, two objects, role update, and optional raise method. |
-| Class Variables | 13 | — | Pending |
+| Class Variables | 13 | PASS | All 5 requirements met by inspection: class variables, employee counter, instance attributes, `full_name`, `apply_raise` with `self.raise_amount`, two objects, exact output labels, employee-specific override, and stretch third employee. |
+| classmethods & staticmethods | 14 | — | Pending |
 
 ### Level 3 — Applied Python (Days ~21–30)
 Not started. Covers: Decorators, Context Managers, Standard Library, Type Hints
@@ -110,6 +111,7 @@ Not started. Covers: Decorators, Context Managers, Standard Library, Type Hints
 | 10 | submissions/day-10.py | Dictionaries | NEEDS WORK → PASS | 2026-07-10 | Initial: two f-strings used nested double quotes, causing syntax errors. Resubmit fixed quote usage; create/read/update/delete/get/items and stretch scores all met by inspection. Revision check correct. Communication and DBMS theory were conceptually clear, but proofreading issues persist. |
 | 11 | submissions/day-11.py | Exception Handling | PASS | 2026-07-11 | All required `try`/`except ValueError`/`else`/`finally` items met by inspection; valid/skipped lists and average printed. Revision check correct. Communication and ER theory were conceptually clear, but sentence polish/spelling still need work. |
 | 12 | submissions/day-12.py | OOP Basics | NEEDS WORK → PASS | 2026-07-13 | Initial: exact label missed (`Updated Employee 2 role:` instead of `Employee 2 role still:`). Resubmit fixed the label; all required OOP items met by inspection. Revision check correct. Communication and OS theory were conceptually clear, but proofreading and own-words-only theory discipline need work. |
+| 13 | submissions/day-13.py | Class Variables | PASS | 2026-07-14 | All required class-variable items met by inspection, including shared employee count, object-level raise override, exact output labels, and stretch third employee. Revision check correct. Communication needs proofreading; OS theory mostly correct but medium-term scheduler wording needs correction. |
 
 ---
 
@@ -120,7 +122,7 @@ Not started. Covers: Decorators, Context Managers, Standard Library, Type Hints
 | 1 (Jun 22–28) | 3 | 3 | 2 | 1 | 0 | Python |
 | 2 (Jun 29–Jul 5) | 2 | 3 | 1 | 1 | 1 | Python |
 | 3 (Jul 6–12) | 5 | 5 | 5 | 0 | 0 | Python, DBMS, Communication |
-| 4 (Jul 13–19) | 1 | 1 | 1 | 0 | 0 | Python, OS, Communication |
+| 4 (Jul 13–19) | 2 | 2 | 2 | 0 | 0 | Python, OS, Communication |
 
 ---
 
@@ -149,9 +151,9 @@ Problems/topics that need to be redone before advancing.
 
 ## NOTES FOR NEXT LESSON GENERATOR
 
-- Day 12 OOP Basics corrected on 2026-07-13 and revised to PASS. No fix block is needed for Day 13.
-- Day 13 should cover Class Variables / OOP continued from the mapped sequence.
-- Carry-forward watch: OOP code was structurally correct and the exact label issue was fixed in resubmission; continue reminding that output labels must match the checklist exactly.
-- Theory next: OS has a 1-day streak after "What is an OS"; continue the mapped OS theory sequence. Count only the student's own wording; do not include ChatGPT-generated theory text in future submissions.
-- Communication: Day 12 class-vs-object answer had the required keywords and basic idea, but needs polished complete sentences and spelling fixes (`instance`, `attribute`, "method is a function", "objects"). Keep watching lowercase/casual phrasing and sentence fragments.
+- Day 13 Class Variables submitted on 2026-07-14 and graded PASS. No fix block is needed for Day 14.
+- Day 14 should cover classmethods & staticmethods / OOP continued from the mapped sequence.
+- Carry-forward watch: Day 13 output labels matched the checklist; continue requiring exact output labels because this has been a recent recurring issue.
+- Theory next: start CN with the mapped "What is a Network + OSI Model intro" resource. Day 13 OS theory was mostly correct, but medium-term scheduler wording should be corrected if it comes up again.
+- Communication: Day 13 class-variable answer had the required keywords and basic idea, but needs 6 complete polished sentences and spelling fixes (`variable`, `every`, `default`, `employees`, `object`, `separate`, `instance`, `doesn't`).
 - REDO watch: no topic has 2+ REDO attempts; no DOMAIN PROGRESS TRACKER flag needed.
