@@ -1,8 +1,8 @@
 # Career OS — STATUS
-Last updated: 2026-07-15 | Day 14 NEEDS WORK, ready for Day 15
+Last updated: 2026-07-18 | Day 15 PASS, ready for Day 16
 Current phase: Ignition (Days 1–30)
 Active domain: Python — Level 2 Intermediate
-Next lesson: Day 15 — Inheritance
+Next lesson: Day 16 — next mapped Python topic after Inheritance
 
 ---
 
@@ -39,17 +39,18 @@ Communication practice:
 | Current Phase | Ignition |
 | Active Domain | Python |
 | Current Topic | Inheritance |
-| Last Lesson | Day 14 — classmethods & staticmethods |
-| Last Grade | NEEDS WORK |
-| Last Submission File | submissions/day-14.py |
+| Last Lesson | Day 15 — Inheritance |
+| Last Grade | PASS |
+| Last Submission File | submissions/day-15.py |
 
 ---
 
 ## DOMAIN PROGRESS TRACKER
 
 | Domain | Phase | Status | Last Topic | Days Spent | Notes |
+| Domain | Phase | Status | Last Topic | Days Spent | Notes |
 |--------|-------|--------|-----------|-----------|-------|
-| Python | Ignition | In Progress | classmethods & staticmethods | 14 | Day 14 NEEDS WORK: `Employee`, `set_raise_amount`, `from_string`, `is_workday`, and stretch `from_csv` were present, but the code would not run because the Monday/Sunday f-strings used nested double quotes, and the exact `Raise amount:` label was missing. |
+| Python | Ignition | In Progress | Inheritance | 15 | Day 15 inheritance submission passed: `Person`, `Employee`, `super()`, overridden `info()`, two employee objects, and two exact print lines were all demonstrated. |
 | Backend Engineering | Ignition | Not Started | — | 0 | Starts ~Day 31 |
 | SQL | Core Depth | Not Started | — | 0 | Starts ~Day 45 |
 | DBMS (Theory) | Parallel | In Progress | ER Modeling | 2 | Day 11 ER modeling submitted: entity, attribute, and relationship concepts present; proofreading/spelling still need polish |
@@ -57,7 +58,7 @@ Communication practice:
 | CN (Theory) | Parallel | In Progress | What is a Network + OSI Model intro | 1 | Day 14 CN explanation covered networks, protocols, layered design, and the OSI model as seven stages of network communication. |
 | Frontend | Build Phase | Not Started | — | 0 | Starts ~Day 76 |
 | Cloud/Deployment | Build Phase | Not Started | — | 0 | Starts ~Day 100 |
-| Communication | Parallel | In Progress | classmethod vs staticmethod explanation | 9 | Day 14 answer had the correct basic idea, but was not 6 polished sentences and needs proofreading plus exact terms (`staticmethod`, singular `object`, `method needs`, `particular`). |
+| Communication | Parallel | In Progress | classmethod vs staticmethod explanation | 9 | Day 14 answer had the correct basic idea, but needs 6 polished sentences and proofreading; Day 15 communication is clearer but still needs polish. |
 | Job Preparation | Offer Mode | Not Started | — | 0 | Starts ~Day 121 |
 
 ---
@@ -88,8 +89,8 @@ Python has 5 levels. Track each topic's completion status here.
 |-------|-----|-------|-------|
 | OOP Basics | 12 | NEEDS WORK → PASS | Initial submission missed the exact second role label; resubmit fixed it to `Employee 2 role still:`. All required OOP pieces met by inspection: `Employee`, `__init__`, instance attributes, `full_name`, `annual_salary`, two objects, role update, and optional raise method. |
 | Class Variables | 13 | PASS | All 5 requirements met by inspection: class variables, employee counter, instance attributes, `full_name`, `apply_raise` with `self.raise_amount`, two objects, exact output labels, employee-specific override, and stretch third employee. |
-| classmethods & staticmethods | 14 | NEEDS WORK | Core concept demonstrated: classmethod uses `cls`, alternate constructors were written, and staticmethod logic was correct. Fix needed: nested-quote f-string syntax error in workday prints and missing exact `Raise amount:` output label. |
-| Inheritance | 15 | — | Pending |
+| classmethods & staticmethods | 14 | NEEDS WORK | Resubmission fixed the workday-print syntax error. Core concept is still understood, but the checklist still fails because the exact required output label `Raise amount:` is not printed as written. |
+| Inheritance | 15 | PASS | All required inheritance pieces met by inspection: `Person`, `Employee`, `super()`, override `info()`, two employees, and two exact print lines. |
 
 ### Level 3 — Applied Python (Days ~21–30)
 Not started. Covers: Decorators, Context Managers, Standard Library, Type Hints
@@ -113,7 +114,8 @@ Not started. Covers: Decorators, Context Managers, Standard Library, Type Hints
 | 11 | submissions/day-11.py | Exception Handling | PASS | 2026-07-11 | All required `try`/`except ValueError`/`else`/`finally` items met by inspection; valid/skipped lists and average printed. Revision check correct. Communication and ER theory were conceptually clear, but sentence polish/spelling still need work. |
 | 12 | submissions/day-12.py | OOP Basics | NEEDS WORK → PASS | 2026-07-13 | Initial: exact label missed (`Updated Employee 2 role:` instead of `Employee 2 role still:`). Resubmit fixed the label; all required OOP items met by inspection. Revision check correct. Communication and OS theory were conceptually clear, but proofreading and own-words-only theory discipline need work. |
 | 13 | submissions/day-13.py | Class Variables | PASS | 2026-07-14 | All required class-variable items met by inspection, including shared employee count, object-level raise override, exact output labels, and stretch third employee. Revision check correct. Communication needs proofreading; OS theory mostly correct but medium-term scheduler wording needs correction. |
-| 14 | submissions/day-14.py | classmethods & staticmethods | NEEDS WORK | 2026-07-15 | Classmethod/staticmethod structure was mostly correct, including `set_raise_amount`, `from_string`, `is_workday`, and stretch `from_csv`. Code needs syntax fix for nested quotes in Monday/Sunday f-strings and exact `Raise amount:` label. Revision and CN theory were correct; communication needs 6 polished sentences and exact terms. |
+| 14 | submissions/day-14.py | classmethods & staticmethods | NEEDS WORK | 2026-07-16 | Resubmission fixed the Monday/Sunday syntax error. `set_raise_amount`, `from_string`, `is_workday`, and stretch `from_csv` are present, but the exact required label `Raise amount:` is still missing, so the checklist is not fully met. Revision and CN theory are correct; communication still needs 6 polished sentences and proofreading. |
+| 15 | submissions/day-15.py | Inheritance | PASS | 2026-07-18 | All required inheritance pieces present; no code logic issues. Theory block needs factual correction and communication needs proofreading. |
 
 ---
 
@@ -124,7 +126,7 @@ Not started. Covers: Decorators, Context Managers, Standard Library, Type Hints
 | 1 (Jun 22–28) | 3 | 3 | 2 | 1 | 0 | Python |
 | 2 (Jun 29–Jul 5) | 2 | 3 | 1 | 1 | 1 | Python |
 | 3 (Jul 6–12) | 5 | 5 | 5 | 0 | 0 | Python, DBMS, Communication |
-| 4 (Jul 13–19) | 3 | 3 | 2 | 1 | 0 | Python, OS, CN, Communication |
+| 4 (Jul 13–19) | 5 | 5 | 3 | 2 | 0 | Python, OS, CN, Communication |
 
 ---
 
@@ -153,10 +155,9 @@ Problems/topics that need to be redone before advancing.
 
 ## NOTES FOR NEXT LESSON GENERATOR
 
-- Day 14 classmethods & staticmethods submitted on 2026-07-15 and graded NEEDS WORK. Advance to Day 15, but include a 2-line "Fix from yesterday" block before the video section.
-- Day 15 should cover Inheritance / OOP continued from the mapped sequence.
-- Fix from yesterday: correct the nested f-string quotes in the `Employee.is_workday("Monday")` and `Employee.is_workday("Sunday")` print calls, and print the exact label `Raise amount:`.
-- Carry-forward watch: exact output labels are still a recurring issue; continue requiring exact output labels from the checklist.
-- Theory next: continue CN with the mapped "TCP/IP Model vs OSI" resource.
+- Day 15 inheritance submission passed; advance to Day 16.
+- Day 16 should cover the next mapped Python topic after Inheritance.
+- Carry-forward watch: exact output labels remain important; keep communication/proofreading polished.
+- Theory next: continue CN with the mapped resource, but correct factual names (`ISO`/`DARPA/ARPANET`) in future written explanations.
 - Communication: Day 14 classmethod/staticmethod answer had the right idea, but needs 6 complete polished sentences, exact terms (`classmethod`, `staticmethod`, `cls`, `self`, `object`), and proofreading.
 - REDO watch: no topic has 2+ REDO attempts; no DOMAIN PROGRESS TRACKER flag needed.

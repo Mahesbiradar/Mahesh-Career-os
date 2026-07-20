@@ -87,5 +87,3 @@ Topic today: What is a Network + OSI Model intro
 
 After watching, write 3 sentences in your own words explaining what a computer network is, why networking is divided into layers, and what the OSI model helps engineers remember.
 Include this with your submission.
-
-
