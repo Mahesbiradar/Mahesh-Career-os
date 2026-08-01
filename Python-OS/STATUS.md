@@ -1,6 +1,6 @@
 # Python-OS — STATUS
-Last updated: 2026-07-18 | Day 15 PASS, ready for Day 16
-Active topic: Next OOP topic after Inheritance (Day 16)
+Last updated: 2026-07-22 | Day 16 PASS (resubmit), ready for Day 17
+Active topic: Polymorphism & Abstract Base Classes (Day 17)
 
 ---
 
@@ -21,13 +21,13 @@ A requirement either exists in the submitted code or it does not.
 
 | Field | Value |
 |---|---|
-| Current Day | 15 |
+| Current Day | 16 |
 | Active Level | Level 2 — Intermediate OOP |
-| Current Topic | Inheritance |
-| Last Lesson | Day 15 — Inheritance |
-| Last Grade | PASS |
-| Last Submission File | submissions/day-15.py |
-| Next Topic | Next OOP topic after Inheritance (agent: check SYLLABUS.md Level 4) |
+| Current Topic | Encapsulation / Property Decorators |
+| Last Lesson | Day 16 — Encapsulation & Property Decorators |
+| Last Grade | PASS (resubmit) |
+| Last Submission File | submissions/day-16.py |
+| Next Topic | Polymorphism & Abstract Base Classes |
 
 ---
 
@@ -57,7 +57,7 @@ A requirement either exists in the submitted code or it does not.
 | Class Variables | 13 | PASS | All 5 requirements met: shared employee count, instance attrs, raise override, exact output labels, stretch third employee. |
 | classmethods & staticmethods | 14 | NEEDS WORK | `set_raise_amount`, `from_string`, `is_workday` present. Exact output label `Raise amount:` still missing. |
 | Inheritance | 15 | PASS | All required pieces: Person, Employee, super(), override info(), two employees, exact print lines. |
-| Encapsulation / Property Decorators | 16 | Not Started | — |
+| Encapsulation / Property Decorators | 16 | PASS (resubmit) | Fixed post-creation `account.balance = 500` setter assignment and exact stretch error label. All property decorator requirements met. Revision Q1 still needs sharper wording. |
 | Polymorphism & Abstract Base Classes | — | Not Started | — |
 | Magic / Dunder Methods | — | Not Started | — |
 
@@ -88,6 +88,7 @@ Not started.
 | 13 | submissions/day-13.py | Class Variables | PASS | 2026-07-14 | All class-variable items met including shared count, raise override, stretch third employee. |
 | 14 | submissions/day-14.py | classmethods & staticmethods | NEEDS WORK | 2026-07-16 | `set_raise_amount`, `from_string`, `is_workday`, stretch `from_csv` present. Exact label `Raise amount:` still missing. |
 | 15 | submissions/day-15.py | Inheritance | PASS | 2026-07-18 | All required inheritance pieces present. Person, Employee, super(), override info(), two exact print lines. |
+| 16 | submissions/day-16.py | Encapsulation / Property Decorators | NEEDS WORK → PASS | 2026-07-22 | Resubmit fixed setter assignment and exact stretch error label. All Day 16 assignment requirements met. |
 
 ---
 
@@ -99,6 +100,7 @@ Not started.
 | 2 (Jun 29–Jul 5) | 2 | 3 | 1 | 1 | 1 |
 | 3 (Jul 6–12) | 5 | 5 | 5 | 0 | 0 |
 | 4 (Jul 13–19) | 5 | 5 | 3 | 2 | 0 |
+| 5 (Jul 20–26) | 1 | 1 | 1 | 0 | 0 |
 
 ---
 
@@ -112,9 +114,9 @@ Not started.
 
 ## NOTES FOR NEXT LESSON GENERATOR
 
-- Day 15 inheritance submission passed. Advance to Day 16.
-- Day 16 topic: next in SYLLABUS.md Level 4 OOP after Inheritance → **Encapsulation / Property Decorators** (4.4).
-- Resource: Corey Schafer — "Python OOP Tutorial 6: Property Decorators - Getters, Setters, and Deleters" (https://youtu.be/jCzT9XFZ5bw)
+- Day 16 encapsulation/property decorator resubmission passed. Student fixed explicit post-creation assignment `account.balance = 500` and exact stretch error label.
+- Carry-forward: revision Q1 wording should be sharpened: `super().__init__(...)` calls the parent constructor to initialize parent attributes.
+- Day 17 topic: **Polymorphism & Abstract Base Classes**.
 - Carry-forward: exact output labels remain important — agent must specify them precisely in assignment.
-- Day 14 carry-forward: `Raise amount:` label was the only gap — mention this was resolved but be watchful for exact label matching.
+- Day 14 carry-forward: `Raise amount:` label was the only gap — continue watching exact label matching.
 - No active REDO items.
