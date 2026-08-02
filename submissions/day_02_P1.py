@@ -91,6 +91,53 @@ for index,value in enumerate(names):
 When given two lists of different lengths, the standard zip() function stops iterating as soon as the shortest list is completely exhausted. Any remaining elements in the longer list are completely ignored and cut off.
 To iterate until the longest iterable is exhausted, use the zip_longest() function from the itertools module.
 """
+# ### Hard (8–10)
+
+# **Q8.** If you use `break` inside an inner loop, which loop(s) does it terminate? Describe two different techniques to break out of *multiple* nested loops from the innermost loop.
+
+"""
+When you use a break statement inside an inner loop, it terminates only the innermost loop that currently contains it. The outer loops will continue running exactly where they left off
+
+Technique 1: Using a Flag Variable (Boolean Flag)
+This is a universal approach across almost all programming languages. You set a boolean variable to True inside the inner loop, break the inner loop, and then check that flag in the outer loops to break them as well.
+Technique 2: Extracting Logic into a Function with return
+This is often considered the cleanest and most "Pythonic" approach. By wrapping your nested loops inside a dedicated function, a single return statement immediately halts all execution inside the function, effectively breaking out of every loop level instantly.
+
+"""
+
+# **Q9.** The `for-else` pattern is famously used for "search" loops. Explain how it works: what executes if the loop finds what it's looking for (and uses `break`), versus what executes if the loop finishes naturally without finding anything?
+"""
+The for-else pattern works by treating the else block as a conditional branch that only runs if the loop completed its natural lifecycle. Think of it as a "did not hit a break" block.
+
+Scenario 1: The loop FINDS the item (Hits break)When the loop successfully finds the target item and executes a break statement:The loop terminates immediately.The program skips the else block entirely.Execution moves directly to the code below the for-else structure.
+Scenario 2: The loop FINISHES naturally (No break)When the loop searches through the entire iterable but never finds the target item:The loop finishes running its last iteration naturally.The program instantly executes the code inside the else block.
+
+"""
+
+# **Q10.** You need to iterate over two lists simultaneously, keep track of the iteration count, and skip to the next pair when a certain condition is met (without exiting the loop). Which control flow tools would you combine, and what would the loop structure look like conceptually?
+
+"""
+To solve this, you would combine three control flow and sequence-handling tools: zip(), enumerate(), and continue.The Combined Toolszip(): Pairs the items of the two lists together so you can iterate over them simultaneously.enumerate(): Wraps the zipped pairs to automatically generate and track the iteration count (index).continue: Skips the rest of the code block for the current iteration and immediately moves to the next pair when your condition is met.Conceptual Loop Structure
+
+list_one = ["A", "B", "C", "D"]
+list_two = [10, 20, 30, 40]
+
+# Wrap the zipped lists inside enumerate to track the count
+for count, (item_one, item_two) in enumerate(zip(list_one, list_two)):
+    
+    # 1. Define the skip condition
+    if item_two == 20: 
+        print(f"Skipping index {count}...")
+        continue  # Skips directly to the next pair (C, 30)
+        
+    # 2. Process the valid pairs here
+    print(f"Index {count}: Processing {item_one} with {item_two}")
+
+"""
+
+
+
+
 
 
 
