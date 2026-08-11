@@ -44,8 +44,25 @@ calculate(10, 5, "divide")    # 2.0
 Why is returning the result better than printing it?
 
 """
+def calculate(a, b, operation):
 
+    if b == 0:
+        return f"Pls Enter Valid number Divisible by zero is unsupported"
 
+    if operation.lower() == "add":
+        return a + b
+    elif operation.lower() == "subtract":
+        return a - b
+    elif operation.lower() == "multiply":
+        return a * b
+    elif operation.lower() == "divide":
+        return a / b
+    else:
+        return f"Pls Enter Valid operation such as add, substract, multiply, divide"
+
+# explanation: Here in this functions we take 3 argumenets two as numvbers and one as operation.
+# Here we handle divisible by zero as well as invalid operations also. and returns the sensible message or result.
+# returning the result is more useful bcz we can use the same result in further program. if i just print the result then we cannot use result unless we return the same.
 
 
 """
@@ -113,6 +130,40 @@ create_student(
 Think carefully about how Python interprets positional arguments here.
 
 """
+def create_student(name, age=18, *subjects, **details):
+    student_details = {}
+
+    student_details["name"] = name
+    student_details["age"] = age
+    student_details["subjects"] = subjects
+    student_details["details"] = details
+
+    return student_details
+
+# student = create_student(
+#     "Mahesh",
+#     22,
+#     "Python",
+#     "Django",
+#     "SQL",
+#     city="Bangalore",
+#     cgpa=8.64
+# )
+
+# print(student)
+
+student = create_student(
+    "Rahul",
+    "Python",
+    "SQL",
+    city="Pune"
+)
+
+print(student)
+
+#In the second test case the python interpreting the second argumnet python as age because of position sequnce. There for keyword arguments are useful for these types of use cases.
+
+
 
 """
 # Assignment 3 — Hard ⭐⭐⭐
@@ -283,6 +334,9 @@ Expected final result:
 """
 
 
+
+"""
+
 # What I'm Evaluating
 
 | Skill                           | Weight |
@@ -304,3 +358,81 @@ For Assignment 3, **don't just make the code work**. After writing it, explain i
 That explanation is specifically testing the Q10 weakness from Section 1.
 
 Submit all **three assignments together**, and I'll review them before we move to the mini project.
+
+"""
+
+
+### Part A — Transform
+
+numbers = [1, 2, 3, 4, 5, 6]
+
+def square_numbers(numbers):
+     
+    return list(map(lambda x:x*x,numbers))
+
+
+print(square_numbers(numbers))
+
+
+### Part B — Filter
+
+def get_even_numbers(numbers):
+
+    return list(filter(lambda x : x % 2== 0,numbers))
+
+print(get_even_numbers(numbers))
+
+
+### Part C — Mutation Test
+
+numbers = [1, 2, 3]
+
+def add_number(data, value):
+    data.append(value)
+    return data
+
+print(add_number(numbers, 4))
+
+print(numbers)
+
+
+### Part D — Unpacking
+
+
+def calculate_total(a, b, c):
+    return a + b + c
+
+
+values = [10, 20, 30]
+
+print(calculate_total(*values))
+
+
+
+### Part E — Dictionary Unpacking
+
+def display_student(name, age, city):
+    print(f"{name} | {age} | {city}")
+
+
+student = {
+    "name": "Mahesh",
+    "age": 22,
+    "city": "Bangalore"
+}
+display_student(**student)
+
+
+## Final Challenge
+
+
+numbers = [1, 2, 3, 4, 5, 6]
+
+
+sqr_numbers=square_numbers(numbers)
+
+
+print(get_even_numbers(sqr_numbers))
+
+
+
