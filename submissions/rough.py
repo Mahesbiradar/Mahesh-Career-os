@@ -79,7 +79,7 @@ def master_yoda(text):
 
     list_of_words = text.split()
 
-    reversert = " "
+    reversert = ""
 
     for word in range(len(list_of_words)-1,-1,-1):
         reversert += list_of_words[word]
@@ -87,3 +87,8 @@ def master_yoda(text):
     return reversert
 
 print(master_yoda('I am home'))
+
+
+# ALMOST THERE: Given an integer n, return True if n is within 10 of either 100 or 200
+
+
