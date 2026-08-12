@@ -239,8 +239,9 @@ An interviewer asks:
 
 Explain **Local → Enclosing → Global → Built-in** in your own words.
 
-# ans: 
+# ans: LEGB Rule in python describes the priority of the varibles and scope. This is important bcz without priortizing the things data discripancy may occur and there will be no standard practice.
 
+In python functions as per the LEGB rule the python priortize the local variable if exist or it may check for enclosing varibel then global and built in.
 ---
 
 ### Q3. `*args` vs `**kwargs`
@@ -259,6 +260,11 @@ Cover:
 * One practical backend use case
 
 ---
+## Ans: *args are used for arbitary positional parameters and **kwargs are used for the arbitary keyword parameters.
+*args accepts the postional argumentes and **kwargs accept keyword arguments.
+*args becomes tuple inside the function and **kwargs become dictionary.
+# Dont have exposure to use these in the backend so not sure.
+
 
 ### Q4. Mutation vs Reassignment ⭐
 
@@ -280,6 +286,11 @@ def modify():
 Keep your answer focused on **object mutation vs name reassignment**.
 
 ---
+
+##Ans: The original list changes because the local varible created by the function refering to the same object and appending that list inside the function mutates the original object without using the global also.
+
+Here in above code the gloabl x object and the x inside the functions are different objects Therefor. its behaves differenty in function the x is created at diffrent memory location and assigned 20 as value so here reassignment to global x not takes place.
+
 
 ### Q5. Scenario-Based — Backend API ⭐⭐⭐
 
@@ -314,6 +325,16 @@ The interviewer asks:
 Don't just write code. **Explain your design decision.**
 
 ---
+
+def create_user(name, email, *, city="Unknown", skills=None):
+    return {
+        "name": name,
+        "email": email,
+        "city": city,
+        "skills": skills if skills is not None else []
+    }
+
+ill use this approch here name and email will be postional argument and then ill use *args to handel additional postional details if required and then use the defulat parameneter city and the ill use **kwargs. for keyword argumnets.
 
 """
 
