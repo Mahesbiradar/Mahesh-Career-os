@@ -1,0 +1,4 @@
+E101,Mahesh,60000,Backend
+E102,Rahul,55000,Frontend
+E103,Amit,70000,Backend
+E104,Priya,45000,QA
