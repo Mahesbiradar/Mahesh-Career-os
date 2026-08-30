@@ -1,0 +1,4 @@
+Car,V101,Toyota,1500000,4
+Truck,V102,Tata,800000,15
+Car,V103,Honda,1200000,2
+Vehicle,V104,Honda,1200000,2

@@ -1,23 +1,14 @@
-class Employee:
-
-    company = "ABC"
-
-    def __init__(self, name):
-        self.name = name
-
-    @staticmethod
-    def create_default():
-        return Employee("Unknown")
-
-    @classmethod
-    def create(cls, name):
-        return cls(name)
+class Vehicle:
+    pass
 
 
-e1 = Employee.create_default()
-e2 = Employee.create("Mahesh")
+class Car(Vehicle):
+    pass
 
-print(e1.name)
-print(e2.name)
-print(type(e1).__name__)
-print(type(e2).__name__)
+
+car = Car()
+
+print(isinstance(car, Car))
+print(isinstance(car, Vehicle))
+print(isinstance(Car, Vehicle))
+print(issubclass(Car, Vehicle))
