@@ -1,14 +1,7 @@
-class Vehicle:
-    pass
+class Employee:
+    def __init__(self):
+        self.__salary = 50000
 
+e = Employee()
 
-class Car(Vehicle):
-    pass
-
-
-car = Car()
-
-print(isinstance(car, Car))
-print(isinstance(car, Vehicle))
-print(isinstance(Car, Vehicle))
-print(issubclass(Car, Vehicle))
+print(e.__salary)
