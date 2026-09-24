@@ -1,7 +1,14 @@
-class Employee:
-    def __init__(self):
-        self.__salary = 50000
+class Student:
 
-e = Employee()
+    college = "ABC"
 
-print(e.__salary)
+    def __init__(self, name):
+        self.name = name
+
+s1 = Student("A")
+s2 = Student("B")
+
+s1.college = "XYZ"
+
+print(s1.college)
+print(s2.college)
