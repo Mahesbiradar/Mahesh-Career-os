@@ -47,7 +47,11 @@ What import and exact code change are needed to preserve the original function's
 
 ```python
 
-def log_call(func):    
+from functools import wraps
+
+def log_call(func):
+
+    @wraps(func)    
     def wrapper(*args, **kwargs):        
         print("Calling function...")        
         return func(*args, **kwargs)    
@@ -60,9 +64,52 @@ Q13. (4 marks) — `lru_cache`
 
 Find the mistake in this code and explain the correct approach.
 
-```
-from functools import lru_cache@lru_cache(maxsize=128)def get_user(user_id, filters):    return fetch_user(user_id, filters)
+``` Python
+from functools import lru_cache
+@lru_cache(maxsize=128)
+def get_user(user_id, filters):    
+    return fetch_user(user_id, filters)
 ```
 
 Assume `filters` is a Python dictionary. Explain why the code fails when called with a dictionary and suggest a suitable fix.
 
+
+# Ans:
+
+The code fails beacause filters is paassed as a Python dictionary which is a mutable (unhashable) data type.
+
+The lru_cache decorator works by using a hidden dictionary to store previous function inputs as keys and their returned results as values.
+
+In Python, dictionary keys must be hashable (immutable). Because standard Python dictionaries are mutable, they cannot be hashed, resulting in a TypeError: unhashable type: 'dict'.
+
+
+To fix this, you must convert the mutable dictionary into an immutable, hashable alternative before or during the caching process.
+
+
+from functools import lru_cache
+
+
+@lru_cache(maxsize=128)
+def _get_user_cached(user_id, filters_tuple):
+  # Internal cached function using the hashable tuple
+  filters = dict(filters_tuple)  # Convert back to dict if fetch_user needs it
+  return fetch_user(user_id, filters)
+
+
+def get_user(user_id, filters):
+  # Public wrapper that converts the dict to a sorted tuple of items
+  filters_tuple = tuple(sorted(filters.items()))
+  return _get_user_cached(user_id, filters_tuple)
+
+
+If external packages are allowed, you can use frozendict, which behaves exactly like a dictionary but is completely immutable.
+
+
+from functools import lru_cache
+from frozendict import frozendict
+
+
+@lru_cache(maxsize=128)
+def get_user(user_id, filters):
+  # The caller must pass filters as a frozendict(filters)
+  return fetch_user(user_id, filters)
