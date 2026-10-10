@@ -11,5 +11,3 @@ Q20. (3 marks) A backend function performs an expensive calculation repeatedly f
 # Ans: lru_cache saves execution time by storing the results of expensive calculations. If the function is called again with the same integer inputs, it returns the cached result instantly instead of recalculating it.All function arguments must be hashable (immutable). It will crash with a TypeError if we pass mutable types like lists or dictionaries.
 
 
-
-
