@@ -1,0 +1,4 @@
+{
+    "input_path": "orders.csv",
+    "output_path": "reports_output"
+}

@@ -1,0 +1,18 @@
+2026-10-20 13:20:31 | INFO | __main__ | The application has started
+2026-10-20 13:20:31 | ERROR | __main__ | The amount is negative at row num : 2
+2026-10-20 13:20:31 | ERROR | __main__ | The order id is invalid with ID: ORD-99 at row_num : 3
+2026-10-20 13:20:31 | ERROR | __main__ | The cutomer name is empty on row num: 4
+2026-10-20 13:20:31 | ERROR | __main__ | The amount is not finite at row num : 5
+2026-10-20 13:20:31 | ERROR | __main__ | The amount is not numeric Data at row num : 7
+2026-10-20 13:24:33 | INFO | __main__ | The application has started
+2026-10-20 13:24:33 | ERROR | __main__ | The amount is negative at row num : 2
+2026-10-20 13:24:33 | ERROR | __main__ | The order id is invalid with ID: ORD-99 at row_num : 3
+2026-10-20 13:24:33 | ERROR | __main__ | The cutomer name is empty on row num: 4
+2026-10-20 13:24:33 | ERROR | __main__ | The amount is not finite at row num : 5
+2026-10-20 13:24:33 | ERROR | __main__ | The amount is not numeric Data at row num : 7
+2026-10-20 16:19:13 | INFO | __main__ | The application has started
+2026-10-20 16:19:13 | ERROR | __main__ | The amount is negative at row num : 2
+2026-10-20 16:19:13 | ERROR | __main__ | The order id is invalid with ID: ORD-99 at row_num : 3
+2026-10-20 16:19:13 | ERROR | __main__ | The cutomer name is empty on row num: 4
+2026-10-20 16:19:13 | ERROR | __main__ | The amount is not finite at row num : 5
+2026-10-20 16:19:13 | ERROR | __main__ | The amount is not numeric Data at row num : 7

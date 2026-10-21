@@ -1,0 +1,12 @@
+2026-10-18 12:20:57 | INFO | __main__ | The application is started
+2026-10-18 12:20:57 | INFO | __main__ | The Validation of csv data is started
+2026-10-18 12:20:57 | INFO | __main__ | sucessfully validated the row num:2
+2026-10-18 12:20:57 | INFO | __main__ | sucessfully validated the row num:3
+2026-10-18 12:20:57 | INFO | __main__ | The amount shoud not be negative and got:-45.0
+2026-10-18 12:20:57 | INFO | __main__ | The order is not in valid statuses in row number:5
+2026-10-18 12:20:57 | INFO | __main__ | sucessfully validated the row num:6
+2026-10-18 12:20:57 | INFO | __main__ | The given amount is invalid formate at row num:7
+2026-10-18 12:20:57 | INFO | __main__ | The file is read successfully with succes rows:3 and failed rows:3
+
+
+

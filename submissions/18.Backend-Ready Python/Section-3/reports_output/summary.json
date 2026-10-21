@@ -1,0 +1,23 @@
+{
+    "generated_at_utc": "2026-10-20T16:23:17.335106+00:00",
+    "total_accepted_amount": 6234.07,
+    "average_amount": 188.91121212121212,
+    "total_accepted_statuses": {
+        "COMPLETED": 12,
+        "PENDING": 11,
+        "SHIPPED": 10
+    },
+    "total_rejected_reasons": {
+        "Invalid -45.50 amount": 1,
+        "Invalid Amount abc": 1,
+        "Required order_id field data is missing": 1,
+        "Required amount field data is missing": 2,
+        "Invalid order id": 2,
+        "Invalid time stamp": 2,
+        "Time stamp not contains the time zone info": 2,
+        "Invalid status": 3,
+        "Invalid -5.00 amount": 1,
+        "Invalid Amount sixty": 1,
+        "Required timestamp field data is missing": 1
+    }
+}

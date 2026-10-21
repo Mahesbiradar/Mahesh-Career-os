@@ -1,0 +1,4 @@
+{
+    "input_csv_path": "orders_input.csv",
+    "accepted_statuses": ["processing", "completed", "shipped"]
+}

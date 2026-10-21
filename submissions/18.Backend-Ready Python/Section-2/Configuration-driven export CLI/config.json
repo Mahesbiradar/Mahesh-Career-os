@@ -1,0 +1,5 @@
+{
+  "input_path": "orders.csv",
+  "output_path": "exports/reports",
+  "max_records": 3
+}

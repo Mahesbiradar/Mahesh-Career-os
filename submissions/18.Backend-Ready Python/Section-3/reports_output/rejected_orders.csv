@@ -1,0 +1,18 @@
+order_id,timestamp,amount,status,rejection_remark
+ORD-10006,2026-10-21T13:20:00Z,-45.50,COMPLETED,Invalid -45.50 amount
+ORD-10007,2026-10-21T14:10:00Z,abc,PENDING,Invalid Amount abc
+,2026-10-21T15:00:00Z,99.99,SHIPPED,Required order_id field data is missing
+ORD-10009,2026-10-21T16:00:00Z,,SHIPPED,Required amount field data is missing
+INVALID-10,2026-10-21T17:00:00Z,100.00,COMPLETED,Invalid order id
+ORD-10011,2026-13-45T18:00:00Z,50.00,PENDING,Invalid time stamp
+ORD-10012,2026-10-21T19:00:00,75.25,SHIPPED,Time stamp not contains the time zone info
+ORD-10013,2026-10-21T20:00:00Z,310.00,REFUNDED,Invalid status
+ORD-10014,2026-10-21T21:15:00Z,42.50,failed,Invalid status
+ORD-10021,2026-10-21T04:20:00Z,-5.00,SHIPPED,Invalid -5.00 amount
+ORD-10022,2026-10-21T05:10:00Z,sixty,PENDING,Invalid Amount sixty
+ORD-10023,,150.00,COMPLETED,Required timestamp field data is missing
+ORD-10024,2026-10-21T07:00:00Z,,COMPLETED,Required amount field data is missing
+ORD-185,2026-10-21T08:00:00Z,35.00,PENDING,Invalid order id
+ORD-10026,not-a-date,88.00,SHIPPED,Invalid time stamp
+ORD-10027,2026-10-21T10:30:00,14.99,COMPLETED,Time stamp not contains the time zone info
+ORD-10028,2026-10-21T11:00:00Z,250.00,PROCESSING,Invalid status

@@ -1,0 +1,2 @@
+2026-10-20 14:50:48 | INFO | __main__ | The configuration-driven export CLI has started.
+2026-10-20 14:50:48 | ERROR | __main__ | Fatal: Missing configuration file argument.

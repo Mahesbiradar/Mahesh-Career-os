@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "generated_at_utc": "2026-10-20T10:47:22.065523+00:00",
+    "total_accepted_records": 3,
+    "total_rejected_records": 2
+  },
+  "statistics": {
+    "total_amount": 500.75,
+    "average_amount": 166.91666666666666,
+    "status_counts": {
+      "pending": 1,
+      "completed": 1,
+      "processing": 1
+    }
+  },
+  "records": [
+    {
+      "order_id": "ORD-1001",
+      "customer": "Alice Smith",
+      "amount": 150.0,
+      "status": "pending",
+      "sample_tracking_id": "SMP-93810"
+    },
+    {
+      "order_id": "ORD-1003",
+      "customer": "Charlie Brown",
+      "amount": 300.5,
+      "status": "completed",
+      "sample_tracking_id": "SMP-24592"
+    },
+    {
+      "order_id": "ORD-1005",
+      "customer": "David Miller",
+      "amount": 50.25,
+      "status": "processing",
+      "sample_tracking_id": "SMP-13278"
+    }
+  ]
+}

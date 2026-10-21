@@ -1,0 +1,7 @@
+order_id,customer,amount,status
+ORD-1001,Alice Smith,150.00,pending
+ORD-1002,Bob Jones,-20.00,processing
+ORD-1003,Charlie Brown,300.50,completed
+ORD-1004,,400.00,pending
+ORD-1005,David Miller,50.25,processing
+ORD-1006,Eva Green,999.00,completed

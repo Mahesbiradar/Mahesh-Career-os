@@ -1,0 +1,21 @@
+2026-10-20 21:51:09 | INFO | __main__ | The application started
+2026-10-20 21:51:09 | INFO | __main__ | Output directory validated/created at: reports_output
+2026-10-20 21:53:17 | INFO | __main__ | The application started
+2026-10-20 21:53:17 | INFO | __main__ | Output directory validated/created at: reports_output
+2026-10-20 21:53:17 | ERROR | __main__ | The amount -45.50 is negative at row num 6
+2026-10-20 21:53:17 | ERROR | __main__ | The row num :7 contains abc invalid amount
+2026-10-20 21:53:17 | ERROR | __main__ | The required order_id field data is missing at row num 8
+2026-10-20 21:53:17 | ERROR | __main__ | The required amount field data is missing at row num 9
+2026-10-20 21:53:17 | ERROR | __main__ | The order id INVALID-10 is invalid on row_num: 10
+2026-10-20 21:53:17 | ERROR | __main__ | The timestamp 2026-13-45T18:00:00Z is invalid with error: month must be in 1..12, not 13
+2026-10-20 21:53:17 | ERROR | __main__ | The time stamp not contains the Time zone info at row num 12
+2026-10-20 21:53:17 | ERROR | __main__ | The order idORD-10013 has invalid status REFUNDED on row_num :13
+2026-10-20 21:53:17 | ERROR | __main__ | The order idORD-10014 has invalid status failed on row_num :14
+2026-10-20 21:53:17 | ERROR | __main__ | The amount -5.00 is negative at row num 21
+2026-10-20 21:53:17 | ERROR | __main__ | The row num :22 contains sixty invalid amount
+2026-10-20 21:53:17 | ERROR | __main__ | The required timestamp field data is missing at row num 23
+2026-10-20 21:53:17 | ERROR | __main__ | The required amount field data is missing at row num 24
+2026-10-20 21:53:17 | ERROR | __main__ | The order id ORD-185 is invalid on row_num: 25
+2026-10-20 21:53:17 | ERROR | __main__ | The timestamp not-a-date is invalid with error: Invalid isoformat string: 'not-a-date'
+2026-10-20 21:53:17 | ERROR | __main__ | The time stamp not contains the Time zone info at row num 27
+2026-10-20 21:53:17 | ERROR | __main__ | The order idORD-10028 has invalid status PROCESSING on row_num :28

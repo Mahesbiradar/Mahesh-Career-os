@@ -1,0 +1,10 @@
+order_id,customer,status,amount
+ORD-2026-001,Alex Mercer,processing,128.50
+ORD-2026-002,Elena Rostova,completed,250.00
+ORD-2026-003,Marcus Vance,processing,-45.00
+ORD-2026-004,Diana Prince,pending,540.75
+ORD-2026-005,Bruce Wayne,shipped,12500.00
+ORD-2026-006,Clark Kent,completed,twelve
+
+
+

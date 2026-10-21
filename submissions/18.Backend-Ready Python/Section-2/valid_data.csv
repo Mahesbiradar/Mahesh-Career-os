@@ -1,0 +1,3 @@
+order_id,customer,amount,status
+ORD-1001,Alice Smith,250.50,pending
+ORD-1005,Eva Green,75.25,processing

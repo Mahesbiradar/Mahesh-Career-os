@@ -1,0 +1,5 @@
+2026-10-20 16:17:22 | INFO | __main__ | The configuration-driven export CLI has started.
+2026-10-20 16:17:22 | INFO | __main__ | Output directory validated/created at: exports/reports
+2026-10-20 16:17:22 | ERROR | __main__ | The amount is negative at row num : 2
+2026-10-20 16:17:22 | ERROR | __main__ | The cutomer name is empty on row num: 4
+2026-10-20 16:17:22 | INFO | __main__ | Successfully generated final JSON report output at: exports/reports\report.json

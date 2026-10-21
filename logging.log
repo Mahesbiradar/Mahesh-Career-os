@@ -1,0 +1,12 @@
+2026-10-18 08:19:49 | INFO | __main__ | Application started
+2026-10-18 08:19:49 | WARNING | __main__ | Invalid Input
+2026-10-18 08:19:49 | ERROR | __main__ | Invalid Input
+NoneType: None
+2026-10-18 08:24:59 | INFO | __main__ | Application started
+2026-10-18 08:24:59 | WARNING | __main__ | Invalid Input
+2026-10-18 08:24:59 | ERROR | __main__ | Invalid operations the error is : division by zero
+Traceback (most recent call last):
+  File "d:\Dev\Mahesh Career os\submissions\18.Backend-Ready Python\logging, json, csv\app_logger.py", line 25, in <module>
+    num = 4/0
+          ~^~
+ZeroDivisionError: division by zero
